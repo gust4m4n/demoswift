@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DemoWebViewController" customModule="DemoSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="labelTitle" destination="yZp-A1-Nbi" id="ktS-nC-uUf"/>
+                <outlet property="view" destination="iN0-l3-epB" id="NfR-DY-2XH"/>
+                <outlet property="webView" destination="Bfp-eF-yka" id="bNm-Im-Ra3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u5e-KO-7FF" userLabel="nav">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="92"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4AG-Qs-s8g">
+                            <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzJ-g9-DRr">
+                                    <rect key="frame" x="0.0" y="0.0" width="54" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="44" id="Ohk-kv-yGi"/>
+                                        <constraint firstAttribute="width" constant="54" id="PFX-Ow-rWq"/>
+                                    </constraints>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" image="ic_demo_back.png"/>
+                                    <connections>
+                                        <action selector="btnBackClicked:" destination="-1" eventType="touchUpInside" id="5Hp-ej-eny"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WebView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZp-A1-Nbi">
+                                    <rect key="frame" x="54" y="12.5" width="306" height="19"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Inter" pointSize="16"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kxT-e4-P1Z">
+                                    <rect key="frame" x="360" y="0.0" width="54" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="44" id="d3r-hL-NkQ"/>
+                                        <constraint firstAttribute="width" constant="54" id="jyR-zr-2sN"/>
+                                    </constraints>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.21960783" green="0.49803921579999999" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstItem="4AG-Qs-s8g" firstAttribute="leading" secondItem="u5e-KO-7FF" secondAttribute="leading" id="8k5-kP-p2s"/>
+                        <constraint firstAttribute="bottom" secondItem="4AG-Qs-s8g" secondAttribute="bottom" id="FGF-y4-KXG"/>
+                        <constraint firstAttribute="trailing" secondItem="4AG-Qs-s8g" secondAttribute="trailing" id="LWb-HT-ENs"/>
+                    </constraints>
+                </view>
+                <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bfp-eF-yka">
+                    <rect key="frame" x="0.0" y="92" width="414" height="804"/>
+                    <wkWebViewConfiguration key="configuration">
+                        <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                        <wkPreferences key="preferences"/>
+                    </wkWebViewConfiguration>
+                </wkWebView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="N6t-qb-xpx"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Bfp-eF-yka" firstAttribute="leading" secondItem="N6t-qb-xpx" secondAttribute="leading" id="04t-QC-Qwm"/>
+                <constraint firstAttribute="bottom" secondItem="Bfp-eF-yka" secondAttribute="bottom" id="1gR-Af-MCM"/>
+                <constraint firstItem="u5e-KO-7FF" firstAttribute="trailing" secondItem="N6t-qb-xpx" secondAttribute="trailing" id="TH1-h9-ww3"/>
+                <constraint firstItem="N6t-qb-xpx" firstAttribute="trailing" secondItem="Bfp-eF-yka" secondAttribute="trailing" id="Uyb-jp-Mr5"/>
+                <constraint firstItem="N6t-qb-xpx" firstAttribute="top" secondItem="u5e-KO-7FF" secondAttribute="bottom" constant="-44" id="f01-Ss-uph"/>
+                <constraint firstItem="Bfp-eF-yka" firstAttribute="top" secondItem="u5e-KO-7FF" secondAttribute="bottom" id="jty-Pj-6lU"/>
+                <constraint firstItem="u5e-KO-7FF" firstAttribute="leading" secondItem="N6t-qb-xpx" secondAttribute="leading" id="oPU-F5-evd"/>
+                <constraint firstItem="u5e-KO-7FF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="rcg-XT-ioO"/>
+            </constraints>
+            <point key="canvasLocation" x="53.623188405797109" y="99.107142857142847"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_demo_back.png" width="24" height="24"/>
+    </resources>
+</document>

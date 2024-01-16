@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DemoDebitCardController" customModule="DemoSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="btnNext" destination="zff-yB-cs0" id="0yF-sR-HSr"/>
+                <outlet property="containerAccount" destination="hso-zK-dYw" id="KQm-Yz-d9P"/>
+                <outlet property="containerDebit1" destination="qpi-o4-IYZ" id="1NR-cV-VVt"/>
+                <outlet property="containerDebit2" destination="DB6-no-fZW" id="hNC-tt-M0p"/>
+                <outlet property="containerDebit3" destination="eEO-41-bp9" id="7bH-EW-TFD"/>
+                <outlet property="containerDebit4" destination="wXU-u2-tLr" id="YQG-ZK-5t8"/>
+                <outlet property="containerPin1" destination="gEA-oN-CpT" id="1L3-ah-sSB"/>
+                <outlet property="containerPin2" destination="OZa-rC-hWW" id="Kks-gS-ib3"/>
+                <outlet property="containerPin3" destination="dbx-sY-c5z" id="cEG-dw-Mow"/>
+                <outlet property="containerPin4" destination="LJd-t2-U5B" id="jNj-IW-2Zy"/>
+                <outlet property="containerPin5" destination="lgn-8X-hi8" id="TJu-hT-Xua"/>
+                <outlet property="containerPin6" destination="Un5-1V-kH3" id="gAt-dC-pj7"/>
+                <outlet property="txtAccount" destination="nhO-a6-RHa" id="Hmc-F5-K1f"/>
+                <outlet property="txtDebit1" destination="J7N-aG-caZ" id="C6y-LQ-xOW"/>
+                <outlet property="txtDebit2" destination="9cc-yj-kTB" id="4Le-hT-BbQ"/>
+                <outlet property="txtDebit3" destination="fKt-ty-U7e" id="BPM-Bq-SQG"/>
+                <outlet property="txtDebit4" destination="8vd-Za-qWK" id="h7Z-bK-naB"/>
+                <outlet property="txtPin1" destination="7C7-a7-K0u" id="cX1-X7-jBX"/>
+                <outlet property="txtPin2" destination="IX9-ae-yXk" id="qmn-Hd-rHb"/>
+                <outlet property="txtPin3" destination="6Cs-8q-hCH" id="oaW-0i-3tc"/>
+                <outlet property="txtPin4" destination="sBf-L6-o0I" id="iEE-7A-Aoa"/>
+                <outlet property="txtPin5" destination="MP6-fr-hVL" id="OFO-z0-HmZ"/>
+                <outlet property="txtPin6" destination="Nf1-Yf-uBZ" id="lRj-Kb-Jk5"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z2L-Vp-At0" userLabel="nav">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="92"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Hb-iA-ZLZ">
+                            <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mxv-20-0ih">
+                                    <rect key="frame" x="0.0" y="0.0" width="54" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="54" id="yfe-C0-2eh"/>
+                                    </constraints>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="ic_demo_back.png.png"/>
+                                    <connections>
+                                        <action selector="btnBackClicked:" destination="-1" eventType="touchUpInside" id="OO2-pt-EZT"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Debit Card" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hxy-6p-yQc">
+                                    <rect key="frame" x="54" y="0.0" width="306" height="44"/>
+                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXj-6e-beA">
+                                    <rect key="frame" x="360" y="0.0" width="54" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="54" id="eSe-Ij-GHs"/>
+                                    </constraints>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="DiI-IA-vyk"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.21960783" green="0.49803921579999999" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="5Hb-iA-ZLZ" secondAttribute="bottom" id="jLp-l7-3vD"/>
+                        <constraint firstAttribute="trailing" secondItem="5Hb-iA-ZLZ" secondAttribute="trailing" id="pmI-c3-FXz"/>
+                        <constraint firstItem="5Hb-iA-ZLZ" firstAttribute="leading" secondItem="z2L-Vp-At0" secondAttribute="leading" id="qQr-UO-iGz"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xyZ-WF-isd">
+                    <rect key="frame" x="0.0" y="92" width="414" height="804"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="never" translatesAutoresizingMaskIntoConstraints="NO" id="A4b-d6-eri" customClass="TPKeyboardAvoidingScrollView">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="696"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Trc-V7-RXE">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="236.5"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="c7k-jl-wtb">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="81.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nomor Rekening" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezB-fw-1oP">
+                                                    <rect key="frame" x="20" y="20" width="374" height="15.5"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="13"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hso-zK-dYw">
+                                                    <rect key="frame" x="20" y="39.5" width="374" height="42"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="32H-Ro-4bQ">
+                                                            <rect key="frame" x="0.0" y="0.0" width="374" height="42"/>
+                                                            <subviews>
+                                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nhO-a6-RHa" customClass="BackspaceTextField" customModule="DemoSwift" customModuleProvider="target">
+                                                                    <rect key="frame" x="10" y="0.0" width="354" height="42"/>
+                                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="38" id="4XQ-qK-oZW"/>
+                                                                    </constraints>
+                                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="tel"/>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                            <real key="value" value="8"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                            <real key="value" value="0.0"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                    <connections>
+                                                                        <action selector="textFieldEditingChanged:" destination="-1" eventType="editingChanged" id="fPL-DS-mSq"/>
+                                                                        <outlet property="delegate" destination="-1" id="0ai-OP-6ae"/>
+                                                                    </connections>
+                                                                </textField>
+                                                            </subviews>
+                                                            <edgeInsets key="layoutMargins" top="0.0" left="10" bottom="0.0" right="10"/>
+                                                        </stackView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="32H-Ro-4bQ" secondAttribute="trailing" id="0cB-jD-KPf"/>
+                                                        <constraint firstAttribute="height" constant="42" id="Dy6-am-qjK"/>
+                                                        <constraint firstItem="32H-Ro-4bQ" firstAttribute="leading" secondItem="hso-zK-dYw" secondAttribute="leading" id="Q34-o3-OWo"/>
+                                                        <constraint firstAttribute="bottom" secondItem="32H-Ro-4bQ" secondAttribute="bottom" id="gNI-CQ-Ce9"/>
+                                                        <constraint firstItem="32H-Ro-4bQ" firstAttribute="top" secondItem="hso-zK-dYw" secondAttribute="top" id="yel-P1-I6K"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="8"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                            <real key="value" value="1"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" red="0.792156862745098" green="0.792156862745098" blue="0.792156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                            <edgeInsets key="layoutMargins" top="20" left="20" bottom="0.0" right="20"/>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Ntr-np-HHY">
+                                            <rect key="frame" x="0.0" y="97.5" width="414" height="61.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nomor Kartu Debit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXY-7i-C7T">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="15.5"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="13"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="FKg-41-Fzm">
+                                                    <rect key="frame" x="20" y="19.5" width="374" height="42"/>
+                                                    <subviews>
+                                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qpi-o4-IYZ">
+                                                            <rect key="frame" x="0.0" y="0.0" width="87.5" height="42"/>
+                                                            <subviews>
+                                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J7N-aG-caZ" customClass="BackspaceTextField" customModule="DemoSwift" customModuleProvider="target">
+                                                                    <rect key="frame" x="10" y="0.0" width="67.5" height="42"/>
+                                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Inter" pointSize="16"/>
+                                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="tel"/>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                            <real key="value" value="8"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                            <real key="value" value="0.0"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                    <connections>
+                                                                        <action selector="textFieldEditingChanged:" destination="-1" eventType="editingChanged" id="nkj-ws-xyh"/>
+                                                                        <outlet property="delegate" destination="-1" id="IB9-iv-Iyd"/>
+                                                                    </connections>
+                                                                </textField>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstItem="J7N-aG-caZ" firstAttribute="leading" secondItem="qpi-o4-IYZ" secondAttribute="leading" constant="10" id="EJa-UV-lbc"/>
+                                                                <constraint firstAttribute="bottom" secondItem="J7N-aG-caZ" secondAttribute="bottom" id="MBC-lw-tEZ"/>
+                                                                <constraint firstAttribute="height" constant="42" id="Que-mp-tQL"/>
+                                                                <constraint firstAttribute="trailing" secondItem="J7N-aG-caZ" secondAttribute="trailing" constant="10" id="bdx-Ua-xh2"/>
+                                                                <constraint firstItem="J7N-aG-caZ" firstAttribute="top" secondItem="qpi-o4-IYZ" secondAttribute="top" id="p3l-LZ-wMu"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="8"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                    <real key="value" value="1"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                    <color key="value" red="0.79215686269999996" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DB6-no-fZW">
+                                                            <rect key="frame" x="95.5" y="0.0" width="87.5" height="42"/>
+                                                            <subviews>
+                                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9cc-yj-kTB" customClass="BackspaceTextField" customModule="DemoSwift" customModuleProvider="target">
+                                                                    <rect key="frame" x="10" y="0.0" width="67.5" height="42"/>
+                                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Inter" pointSize="16"/>
+                                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="tel"/>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                            <real key="value" value="8"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                            <real key="value" value="0.0"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                    <connections>
+                                                                        <action selector="textFieldEditingChanged:" destination="-1" eventType="editingChanged" id="wmq-3X-LKl"/>
+                                                                        <outlet property="delegate" destination="-1" id="Di2-Z1-JGL"/>
+                                                                    </connections>
+                                                                </textField>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="bottom" secondItem="9cc-yj-kTB" secondAttribute="bottom" id="38K-EC-uks"/>
+                                                                <constraint firstItem="9cc-yj-kTB" firstAttribute="leading" secondItem="DB6-no-fZW" secondAttribute="leading" constant="10" id="AuA-Y9-Rnr"/>
+                                                                <constraint firstAttribute="height" constant="42" id="LFS-KQ-nuF"/>
+                                                                <constraint firstItem="9cc-yj-kTB" firstAttribute="top" secondItem="DB6-no-fZW" secondAttribute="top" id="SX4-KZ-jaC"/>
+                                                                <constraint firstAttribute="trailing" secondItem="9cc-yj-kTB" secondAttribute="trailing" constant="10" id="cad-pr-ZWk"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="8"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                    <real key="value" value="1"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                    <color key="value" red="0.79215686269999996" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eEO-41-bp9">
+                                                            <rect key="frame" x="191" y="0.0" width="87.5" height="42"/>
+                                                            <subviews>
+                                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fKt-ty-U7e" customClass="BackspaceTextField" customModule="DemoSwift" customModuleProvider="target">
+                                                                    <rect key="frame" x="10" y="0.0" width="67.5" height="42"/>
+                                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Inter" pointSize="16"/>
+                                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="tel"/>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                            <real key="value" value="8"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                            <real key="value" value="0.0"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                    <connections>
+                                                                        <action selector="textFieldEditingChanged:" destination="-1" eventType="editingChanged" id="kYM-A9-pva"/>
+                                                                        <outlet property="delegate" destination="-1" id="zEd-aF-FAK"/>
+                                                                    </connections>
+                                                                </textField>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstItem="fKt-ty-U7e" firstAttribute="top" secondItem="eEO-41-bp9" secondAttribute="top" id="4Sf-8f-N8G"/>
+                                                                <constraint firstAttribute="bottom" secondItem="fKt-ty-U7e" secondAttribute="bottom" id="LKJ-of-3V5"/>
+                                                                <constraint firstAttribute="trailing" secondItem="fKt-ty-U7e" secondAttribute="trailing" constant="10" id="Mz5-1i-A89"/>
+                                                                <constraint firstItem="fKt-ty-U7e" firstAttribute="leading" secondItem="eEO-41-bp9" secondAttribute="leading" constant="10" id="b1M-F5-MqA"/>
+                                                                <constraint firstAttribute="height" constant="42" id="xRd-v5-uGk"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="8"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                    <real key="value" value="1"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                    <color key="value" red="0.79215686269999996" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wXU-u2-tLr">
+                                                            <rect key="frame" x="286.5" y="0.0" width="87.5" height="42"/>
+                                                            <subviews>
+                                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8vd-Za-qWK" customClass="BackspaceTextField" customModule="DemoSwift" customModuleProvider="target">
+                                                                    <rect key="frame" x="10" y="0.0" width="67.5" height="42"/>
+                                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Inter" pointSize="16"/>
+                                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="tel"/>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                            <real key="value" value="8"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                            <real key="value" value="0.0"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                    <connections>
+                                                                        <action selector="textFieldEditingChanged:" destination="-1" eventType="editingChanged" id="86y-N2-Bvh"/>
+                                                                        <outlet property="delegate" destination="-1" id="RdR-4u-v4R"/>
+                                                                    </connections>
+                                                                </textField>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="bottom" secondItem="8vd-Za-qWK" secondAttribute="bottom" id="1J3-ld-DQK"/>
+                                                                <constraint firstAttribute="trailing" secondItem="8vd-Za-qWK" secondAttribute="trailing" constant="10" id="9zK-xb-Wby"/>
+                                                                <constraint firstItem="8vd-Za-qWK" firstAttribute="leading" secondItem="wXU-u2-tLr" secondAttribute="leading" constant="10" id="A6u-Wv-C5e"/>
+                                                                <constraint firstAttribute="height" constant="42" id="Tfb-bb-TaY"/>
+                                                                <constraint firstItem="8vd-Za-qWK" firstAttribute="top" secondItem="wXU-u2-tLr" secondAttribute="top" id="olY-Jn-S2F"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="8"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                    <real key="value" value="1"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                    <color key="value" red="0.79215686269999996" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <edgeInsets key="layoutMargins" top="0.0" left="20" bottom="0.0" right="20"/>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="sdY-0O-cFB">
+                                            <rect key="frame" x="0.0" y="175" width="414" height="61.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PIN Kartu Debit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mev-kZ-5dv">
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="15.5"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="13"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6ov-RC-KMk">
+                                                    <rect key="frame" x="20" y="19.5" width="374" height="42"/>
+                                                    <subviews>
+                                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gEA-oN-CpT">
+                                                            <rect key="frame" x="0.0" y="0.0" width="55.5" height="42"/>
+                                                            <subviews>
+                                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7C7-a7-K0u" customClass="BackspaceTextField" customModule="DemoSwift" customModuleProvider="target">
+                                                                    <rect key="frame" x="10" y="0.0" width="35.5" height="42"/>
+                                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Inter" pointSize="18"/>
+                                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad" secureTextEntry="YES" textContentType="tel"/>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                            <real key="value" value="8"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                            <real key="value" value="0.0"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                    <connections>
+                                                                        <action selector="textFieldEditingChanged:" destination="-1" eventType="editingChanged" id="hwU-B7-u9J"/>
+                                                                        <outlet property="delegate" destination="-1" id="FMj-gA-YFV"/>
+                                                                    </connections>
+                                                                </textField>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstItem="7C7-a7-K0u" firstAttribute="top" secondItem="gEA-oN-CpT" secondAttribute="top" id="L5S-FK-NEk"/>
+                                                                <constraint firstItem="7C7-a7-K0u" firstAttribute="leading" secondItem="gEA-oN-CpT" secondAttribute="leading" constant="10" id="PVe-3G-Wpa"/>
+                                                                <constraint firstAttribute="bottom" secondItem="7C7-a7-K0u" secondAttribute="bottom" id="XVN-6u-2OM"/>
+                                                                <constraint firstAttribute="trailing" secondItem="7C7-a7-K0u" secondAttribute="trailing" constant="10" id="apD-F2-BIU"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="8"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                    <real key="value" value="1"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                    <color key="value" red="0.79215686269999996" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OZa-rC-hWW">
+                                                            <rect key="frame" x="63.5" y="0.0" width="56" height="42"/>
+                                                            <subviews>
+                                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IX9-ae-yXk" customClass="BackspaceTextField" customModule="DemoSwift" customModuleProvider="target">
+                                                                    <rect key="frame" x="10" y="0.0" width="36" height="42"/>
+                                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Inter" pointSize="18"/>
+                                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad" secureTextEntry="YES" textContentType="tel"/>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                            <real key="value" value="8"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                            <real key="value" value="0.0"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                    <connections>
+                                                                        <action selector="textFieldEditingChanged:" destination="-1" eventType="editingChanged" id="Y5m-Wk-5V3"/>
+                                                                        <outlet property="delegate" destination="-1" id="riS-CM-Xph"/>
+                                                                    </connections>
+                                                                </textField>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="bottom" secondItem="IX9-ae-yXk" secondAttribute="bottom" id="1tV-v3-zJE"/>
+                                                                <constraint firstItem="IX9-ae-yXk" firstAttribute="top" secondItem="OZa-rC-hWW" secondAttribute="top" id="CH9-QJ-wce"/>
+                                                                <constraint firstItem="IX9-ae-yXk" firstAttribute="leading" secondItem="OZa-rC-hWW" secondAttribute="leading" constant="10" id="axF-I4-aIA"/>
+                                                                <constraint firstAttribute="trailing" secondItem="IX9-ae-yXk" secondAttribute="trailing" constant="10" id="dF1-Ul-92V"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="8"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                    <real key="value" value="1"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                    <color key="value" red="0.79215686269999996" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dbx-sY-c5z">
+                                                            <rect key="frame" x="127.5" y="0.0" width="55.5" height="42"/>
+                                                            <subviews>
+                                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Cs-8q-hCH" customClass="BackspaceTextField" customModule="DemoSwift" customModuleProvider="target">
+                                                                    <rect key="frame" x="10" y="0.0" width="35.5" height="42"/>
+                                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Inter" pointSize="18"/>
+                                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad" secureTextEntry="YES" textContentType="tel"/>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                            <real key="value" value="8"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                            <real key="value" value="0.0"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                    <connections>
+                                                                        <action selector="textFieldEditingChanged:" destination="-1" eventType="editingChanged" id="YcU-PE-aZe"/>
+                                                                        <outlet property="delegate" destination="-1" id="qRp-bY-IZ3"/>
+                                                                    </connections>
+                                                                </textField>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstItem="6Cs-8q-hCH" firstAttribute="top" secondItem="dbx-sY-c5z" secondAttribute="top" id="0U5-2m-yhK"/>
+                                                                <constraint firstAttribute="bottom" secondItem="6Cs-8q-hCH" secondAttribute="bottom" id="kmp-K0-B69"/>
+                                                                <constraint firstItem="6Cs-8q-hCH" firstAttribute="leading" secondItem="dbx-sY-c5z" secondAttribute="leading" constant="10" id="oYT-P3-Vpd"/>
+                                                                <constraint firstAttribute="trailing" secondItem="6Cs-8q-hCH" secondAttribute="trailing" constant="10" id="zoO-xH-suM"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="8"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                    <real key="value" value="1"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                    <color key="value" red="0.79215686269999996" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LJd-t2-U5B">
+                                                            <rect key="frame" x="191" y="0.0" width="55.5" height="42"/>
+                                                            <subviews>
+                                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sBf-L6-o0I" customClass="BackspaceTextField" customModule="DemoSwift" customModuleProvider="target">
+                                                                    <rect key="frame" x="10" y="0.0" width="35.5" height="42"/>
+                                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Inter" pointSize="18"/>
+                                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad" secureTextEntry="YES" textContentType="tel"/>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                            <real key="value" value="8"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                            <real key="value" value="0.0"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                    <connections>
+                                                                        <action selector="textFieldEditingChanged:" destination="-1" eventType="editingChanged" id="4bo-dd-ZI4"/>
+                                                                        <outlet property="delegate" destination="-1" id="qG7-OZ-Cqc"/>
+                                                                    </connections>
+                                                                </textField>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstItem="sBf-L6-o0I" firstAttribute="leading" secondItem="LJd-t2-U5B" secondAttribute="leading" constant="10" id="7b8-TO-BgT"/>
+                                                                <constraint firstItem="sBf-L6-o0I" firstAttribute="top" secondItem="LJd-t2-U5B" secondAttribute="top" id="DyG-FN-gER"/>
+                                                                <constraint firstAttribute="trailing" secondItem="sBf-L6-o0I" secondAttribute="trailing" constant="10" id="Mzr-1i-0m8"/>
+                                                                <constraint firstAttribute="bottom" secondItem="sBf-L6-o0I" secondAttribute="bottom" id="bSA-29-fHB"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="8"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                    <real key="value" value="1"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                    <color key="value" red="0.79215686269999996" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lgn-8X-hi8">
+                                                            <rect key="frame" x="254.5" y="0.0" width="56" height="42"/>
+                                                            <subviews>
+                                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MP6-fr-hVL" customClass="BackspaceTextField" customModule="DemoSwift" customModuleProvider="target">
+                                                                    <rect key="frame" x="10" y="0.0" width="36" height="42"/>
+                                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Inter" pointSize="18"/>
+                                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad" secureTextEntry="YES" textContentType="tel"/>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                            <real key="value" value="8"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                            <real key="value" value="0.0"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                    <connections>
+                                                                        <action selector="textFieldEditingChanged:" destination="-1" eventType="editingChanged" id="IEY-R8-z4A"/>
+                                                                        <outlet property="delegate" destination="-1" id="mdh-ZA-jeg"/>
+                                                                    </connections>
+                                                                </textField>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstItem="MP6-fr-hVL" firstAttribute="top" secondItem="lgn-8X-hi8" secondAttribute="top" id="CBW-MI-TEi"/>
+                                                                <constraint firstItem="MP6-fr-hVL" firstAttribute="leading" secondItem="lgn-8X-hi8" secondAttribute="leading" constant="10" id="IIA-UI-snK"/>
+                                                                <constraint firstAttribute="trailing" secondItem="MP6-fr-hVL" secondAttribute="trailing" constant="10" id="UmF-7l-p5t"/>
+                                                                <constraint firstAttribute="bottom" secondItem="MP6-fr-hVL" secondAttribute="bottom" id="tq0-ax-6KO"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="8"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                    <real key="value" value="1"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                    <color key="value" red="0.79215686269999996" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Un5-1V-kH3">
+                                                            <rect key="frame" x="318.5" y="0.0" width="55.5" height="42"/>
+                                                            <subviews>
+                                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nf1-Yf-uBZ" customClass="BackspaceTextField" customModule="DemoSwift" customModuleProvider="target">
+                                                                    <rect key="frame" x="10" y="0.0" width="35.5" height="42"/>
+                                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="textColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Inter" pointSize="18"/>
+                                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad" secureTextEntry="YES" textContentType="tel"/>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                            <real key="value" value="8"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                            <real key="value" value="0.0"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
+                                                                    <connections>
+                                                                        <action selector="textFieldEditingChanged:" destination="-1" eventType="editingChanged" id="dm1-fF-8Kv"/>
+                                                                        <outlet property="delegate" destination="-1" id="TK5-sC-FmI"/>
+                                                                    </connections>
+                                                                </textField>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="trailing" secondItem="Nf1-Yf-uBZ" secondAttribute="trailing" constant="10" id="Ia3-kX-gho"/>
+                                                                <constraint firstItem="Nf1-Yf-uBZ" firstAttribute="top" secondItem="Un5-1V-kH3" secondAttribute="top" id="LRN-Bd-sCX"/>
+                                                                <constraint firstAttribute="height" constant="42" id="ZXa-Q7-PMp"/>
+                                                                <constraint firstAttribute="bottom" secondItem="Nf1-Yf-uBZ" secondAttribute="bottom" id="pjP-Vk-JQi"/>
+                                                                <constraint firstItem="Nf1-Yf-uBZ" firstAttribute="leading" secondItem="Un5-1V-kH3" secondAttribute="leading" constant="10" id="zJZ-Ch-bub"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="8"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                    <real key="value" value="1"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                    <color key="value" red="0.79215686269999996" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <edgeInsets key="layoutMargins" top="0.0" left="20" bottom="0.0" right="20"/>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="Trc-V7-RXE" firstAttribute="width" secondItem="A4b-d6-eri" secondAttribute="width" id="198-cc-Vq2"/>
+                                <constraint firstAttribute="trailing" secondItem="Trc-V7-RXE" secondAttribute="trailing" id="35r-UZ-gNa"/>
+                                <constraint firstItem="Trc-V7-RXE" firstAttribute="top" secondItem="A4b-d6-eri" secondAttribute="top" id="OuU-DY-R0h"/>
+                                <constraint firstItem="Trc-V7-RXE" firstAttribute="leading" secondItem="A4b-d6-eri" secondAttribute="leading" id="gXh-Sx-KgD"/>
+                                <constraint firstAttribute="bottom" secondItem="Trc-V7-RXE" secondAttribute="bottom" id="zRR-Am-QCT"/>
+                            </constraints>
+                        </scrollView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="OYL-iR-8E0">
+                            <rect key="frame" x="0.0" y="696" width="414" height="108"/>
+                            <subviews>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zff-yB-cs0">
+                                    <rect key="frame" x="16" y="16" width="382" height="42"/>
+                                    <color key="backgroundColor" red="0.26797342299999999" green="0.53451555969999998" blue="0.9137659669" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="42" id="7ZV-Bm-YCy"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Selanjutnya">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="btnNextClicked:" destination="-1" eventType="touchUpInside" id="JIk-s7-xH0"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <edgeInsets key="layoutMargins" top="16" left="16" bottom="16" right="16"/>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="rLT-Me-gHx"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="z2L-Vp-At0" firstAttribute="trailing" secondItem="rLT-Me-gHx" secondAttribute="trailing" id="AQc-MJ-n5V"/>
+                <constraint firstItem="xyZ-WF-isd" firstAttribute="top" secondItem="z2L-Vp-At0" secondAttribute="bottom" id="ByJ-j9-MaG"/>
+                <constraint firstItem="xyZ-WF-isd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="C1V-Zf-rSw"/>
+                <constraint firstAttribute="bottom" secondItem="xyZ-WF-isd" secondAttribute="bottom" id="Qda-gF-m6c"/>
+                <constraint firstItem="rLT-Me-gHx" firstAttribute="top" secondItem="z2L-Vp-At0" secondAttribute="bottom" constant="-44" id="TSs-rW-Dyr"/>
+                <constraint firstItem="z2L-Vp-At0" firstAttribute="leading" secondItem="rLT-Me-gHx" secondAttribute="leading" id="qLR-Sr-E87"/>
+                <constraint firstItem="z2L-Vp-At0" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ydL-6o-wkt"/>
+                <constraint firstAttribute="trailing" secondItem="xyZ-WF-isd" secondAttribute="trailing" id="zvF-qA-Rgi"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="106"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_demo_back.png.png" width="128" height="128"/>
+    </resources>
+</document>

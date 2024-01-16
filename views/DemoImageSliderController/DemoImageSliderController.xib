@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DemoImageSliderController" customModule="DemoSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="ddZ-9i-Re1" id="8qI-5d-9SO"/>
+                <outlet property="view" destination="90i-JG-Ji6" id="gqb-KX-8bL"/>
+            </connections>
+        </placeholder>
+        <view contentMode="scaleToFill" id="90i-JG-Ji6">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bW7-dP-75D" userLabel="nav">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="92"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jyD-Fa-tHo">
+                            <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QqT-WP-qpm">
+                                    <rect key="frame" x="0.0" y="0.0" width="54" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="54" id="772-t8-w2k"/>
+                                    </constraints>
+                                    <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="ic_demo_back.png"/>
+                                    <connections>
+                                        <action selector="btnBackClicked:" destination="-1" eventType="touchUpInside" id="X8a-jx-8qC"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ImageSlider" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TXK-HF-fYY">
+                                    <rect key="frame" x="54" y="0.0" width="306" height="44"/>
+                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcp-Df-B6v">
+                                    <rect key="frame" x="360" y="0.0" width="54" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="54" id="dPC-lb-3WZ"/>
+                                    </constraints>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="aUq-c0-MXZ"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.21960783" green="0.49803921579999999" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="jyD-Fa-tHo" secondAttribute="trailing" id="4eG-Ok-TN6"/>
+                        <constraint firstAttribute="bottom" secondItem="jyD-Fa-tHo" secondAttribute="bottom" id="BNh-fU-0Hv"/>
+                        <constraint firstItem="jyD-Fa-tHo" firstAttribute="leading" secondItem="bW7-dP-75D" secondAttribute="leading" id="X0C-Dm-Gxx"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ddZ-9i-Re1">
+                    <rect key="frame" x="0.0" y="92" width="414" height="804"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="mlf-ul-6fN">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="0m2-th-3fO"/>
+                        <outlet property="delegate" destination="-1" id="xWf-qj-1Sn"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="oyF-Y4-HKt"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="ddZ-9i-Re1" firstAttribute="top" secondItem="bW7-dP-75D" secondAttribute="bottom" id="2oJ-mj-eH5"/>
+                <constraint firstItem="bW7-dP-75D" firstAttribute="top" secondItem="90i-JG-Ji6" secondAttribute="top" id="9Oo-lM-k3a"/>
+                <constraint firstItem="bW7-dP-75D" firstAttribute="leading" secondItem="oyF-Y4-HKt" secondAttribute="leading" id="DPy-sk-214"/>
+                <constraint firstItem="oyF-Y4-HKt" firstAttribute="trailing" secondItem="ddZ-9i-Re1" secondAttribute="trailing" id="gMx-CN-Nz6"/>
+                <constraint firstItem="oyF-Y4-HKt" firstAttribute="top" secondItem="bW7-dP-75D" secondAttribute="bottom" constant="-44" id="gUB-8P-B6s"/>
+                <constraint firstAttribute="bottom" secondItem="ddZ-9i-Re1" secondAttribute="bottom" id="if5-TI-vLk"/>
+                <constraint firstItem="bW7-dP-75D" firstAttribute="trailing" secondItem="oyF-Y4-HKt" secondAttribute="trailing" id="jd3-jm-O0Y"/>
+                <constraint firstItem="ddZ-9i-Re1" firstAttribute="leading" secondItem="oyF-Y4-HKt" secondAttribute="leading" id="mB6-Bi-Pt7"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="89"/>
+        </view>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+    </objects>
+    <resources>
+        <image name="ic_demo_back.png" width="24" height="24"/>
+    </resources>
+</document>

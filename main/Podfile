@@ -1,0 +1,38 @@
+platform :ios, '12.0'
+use_frameworks!
+
+target 'DemoSwift' do
+  pod 'ActionSheetPicker-3.0', '2.7.1'
+  pod 'ActiveLabel', '1.1.0'
+  pod 'Alamofire', '5.6.4'
+  pod 'Atributika', '4.10.1'
+  pod 'CryptoSwift', '1.6.0'
+  pod 'IHKeyboardAvoiding', '4.7'
+  pod 'KSToastView', '0.5.7'
+  pod 'KeychainSwift', '20.0.0'
+  pod 'MXSegmentedPager', '4.0.0'
+  pod 'PullToRefresher'
+  pod 'ReachabilitySwift', '5.0.0'
+  pod 'SDWebImage', '5.15.0'
+  pod 'SPPermissions/Camera'
+  pod 'SWXMLHash', '6.0.0'
+  pod 'SkeletonView', '1.15.0'
+  pod 'SnapKit', '5.6.0'
+  pod 'SwiftDate', '6.3.1'
+  pod 'SwiftyJSON', '5.0.1'
+  pod 'SwipeBack', '1.1.1'
+  pod 'TPKeyboardAvoiding', '1.3.5'
+  pod 'UITextView+Placeholder', '1.4.0'
+  pod 'Wormholy'
+end
+
+post_install do |installer|
+ installer.pods_project.targets.each do |target|
+     target.build_configurations.each do |config|
+        if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 11.0
+          config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11.0'
+          config.build_settings["ONLY_ACTIVE_ARCH"] = "NO"
+        end
+     end
+ end
+end

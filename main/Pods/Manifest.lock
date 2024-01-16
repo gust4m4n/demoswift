@@ -1,0 +1,116 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.7.1)
+  - ActiveLabel (1.1.0)
+  - Alamofire (5.6.4)
+  - Atributika (4.10.1)
+  - CryptoSwift (1.6.0)
+  - IHKeyboardAvoiding (4.7)
+  - KeychainSwift (20.0.0)
+  - KSToastView (0.5.7)
+  - MXPagerView (0.2.1)
+  - MXParallaxHeader (1.1.0)
+  - MXSegmentedControl (1.1.0)
+  - MXSegmentedPager (4.0.0):
+    - MXPagerView (~> 0.2)
+    - MXParallaxHeader (~> 1.0)
+    - MXSegmentedControl (~> 1.1)
+  - PullToRefresher (3.3)
+  - ReachabilitySwift (5.0.0)
+  - SDWebImage (5.15.0):
+    - SDWebImage/Core (= 5.15.0)
+  - SDWebImage/Core (5.15.0)
+  - SkeletonView (1.15.0)
+  - SnapKit (5.6.0)
+  - SPPermissions/Camera (7.1.5):
+    - SPPermissions/Core
+  - SPPermissions/Core (7.1.5)
+  - SwiftDate (6.3.1)
+  - SwiftyJSON (5.0.1)
+  - SwipeBack (1.1.1)
+  - SWXMLHash (6.0.0)
+  - TPKeyboardAvoiding (1.3.5)
+  - "UITextView+Placeholder (1.4.0)"
+  - Wormholy (1.7.0)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0 (= 2.7.1)
+  - ActiveLabel (= 1.1.0)
+  - Alamofire (= 5.6.4)
+  - Atributika (= 4.10.1)
+  - CryptoSwift (= 1.6.0)
+  - IHKeyboardAvoiding (= 4.7)
+  - KeychainSwift (= 20.0.0)
+  - KSToastView (= 0.5.7)
+  - MXSegmentedPager (= 4.0.0)
+  - PullToRefresher
+  - ReachabilitySwift (= 5.0.0)
+  - SDWebImage (= 5.15.0)
+  - SkeletonView (= 1.15.0)
+  - SnapKit (= 5.6.0)
+  - SPPermissions/Camera
+  - SwiftDate (= 6.3.1)
+  - SwiftyJSON (= 5.0.1)
+  - SwipeBack (= 1.1.1)
+  - SWXMLHash (= 6.0.0)
+  - TPKeyboardAvoiding (= 1.3.5)
+  - "UITextView+Placeholder (= 1.4.0)"
+  - Wormholy
+
+SPEC REPOS:
+  trunk:
+    - ActionSheetPicker-3.0
+    - ActiveLabel
+    - Alamofire
+    - Atributika
+    - CryptoSwift
+    - IHKeyboardAvoiding
+    - KeychainSwift
+    - KSToastView
+    - MXPagerView
+    - MXParallaxHeader
+    - MXSegmentedControl
+    - MXSegmentedPager
+    - PullToRefresher
+    - ReachabilitySwift
+    - SDWebImage
+    - SkeletonView
+    - SnapKit
+    - SPPermissions
+    - SwiftDate
+    - SwiftyJSON
+    - SwipeBack
+    - SWXMLHash
+    - TPKeyboardAvoiding
+    - "UITextView+Placeholder"
+    - Wormholy
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 36da254b97a09ff89679ecb8b8510bd3e5bdc773
+  ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  Atributika: 47e778507cfb3cd2c996278b0285221a62e97d71
+  CryptoSwift: 562f8eceb40e80796fffc668b0cad9313284cfa6
+  IHKeyboardAvoiding: 4cae0880c3975feffa278495df894c5166e71ad0
+  KeychainSwift: 0ce6a4d13f7228054d1a71bb1b500448fb2ab837
+  KSToastView: aeb0ca50b44e9568b6f95b2d1ec53a3f016b50fc
+  MXPagerView: ede184b5191b2ed689ccf05a750a9978cce42414
+  MXParallaxHeader: de3c867e10ba46e8f6e20c8ee1f2a910372b3b94
+  MXSegmentedControl: f39e46199a52cbc03b1c845e150215119f2542f5
+  MXSegmentedPager: 527ee76513c96e6607eebe473fe49b7ab4971616
+  PullToRefresher: 6fc2ab6494caf949bcf6f0223ffd23f9d21a06f6
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SDWebImage: 9bec4c5cdd9579e1f57104735ee0c37df274d593
+  SkeletonView: cac18a3ac4f893b09d99e65072d806ef08377aae
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SPPermissions: c63ac1132badad39917de03a3c9dc2429ace94be
+  SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  SwipeBack: d6759601b40da1f4161033feb30ab475d7d04322
+  SWXMLHash: 9d851ed3edf48ec2bd0db98f0cda0ad4136d75e3
+  TPKeyboardAvoiding: d55b3ea7b362540af8fcf36aa3ed2e87bf210cc6
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
+  Wormholy: ab1c8c2f02f58587a0941deb0088555ffbf039a1
+
+PODFILE CHECKSUM: 42d0fed2078851bf54001b31227b97fed3e81977
+
+COCOAPODS: 1.14.3
