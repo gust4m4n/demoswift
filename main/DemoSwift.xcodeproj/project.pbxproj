@@ -54,6 +54,10 @@
 		355709522995033E00A239ED /* ic_demo_sheet_grip.png in Resources */ = {isa = PBXBuildFile; fileRef = 355707162995033E00A239ED /* ic_demo_sheet_grip.png */; };
 		355709692995033E00A239ED /* ic_demo_sheet_grip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3557072D2995033E00A239ED /* ic_demo_sheet_grip@2x.png */; };
 		35570A012995033E00A239ED /* DemoLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355707C62995033E00A239ED /* DemoLaunchScreen.storyboard */; };
+		356D67E02B624D9700EC5317 /* DemoGridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356D67DC2B624D9700EC5317 /* DemoGridViewController.xib */; };
+		356D67E12B624D9700EC5317 /* DemoGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356D67DD2B624D9700EC5317 /* DemoGridViewController.swift */; };
+		356D67E22B624D9700EC5317 /* DemoGridViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356D67DE2B624D9700EC5317 /* DemoGridViewCell.xib */; };
+		356D67E32B624D9700EC5317 /* DemoGridViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356D67DF2B624D9700EC5317 /* DemoGridViewCell.swift */; };
 		3572CA712B198FD700A32FA8 /* DemoImageSliderController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3572CA512B198FD600A32FA8 /* DemoImageSliderController.xib */; };
 		3572CA722B198FD700A32FA8 /* DemoDemoImageSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CA522B198FD600A32FA8 /* DemoDemoImageSliderCell.swift */; };
 		3572CA732B198FD700A32FA8 /* DemoImageSliderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CA532B198FD600A32FA8 /* DemoImageSliderController.swift */; };
@@ -64,10 +68,6 @@
 		3572CA782B198FD700A32FA8 /* DemoListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3572CA592B198FD600A32FA8 /* DemoListViewCell.xib */; };
 		3572CA7B2B198FD700A32FA8 /* DemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CA5E2B198FD600A32FA8 /* DemoController.swift */; };
 		3572CA7C2B198FD700A32FA8 /* DemoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3572CA5F2B198FD600A32FA8 /* DemoController.xib */; };
-		3572CA7D2B198FD700A32FA8 /* DemoGridViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3572CA612B198FD600A32FA8 /* DemoGridViewCell.xib */; };
-		3572CA7E2B198FD700A32FA8 /* DemoGridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3572CA622B198FD600A32FA8 /* DemoGridViewController.xib */; };
-		3572CA7F2B198FD700A32FA8 /* DemoGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CA632B198FD600A32FA8 /* DemoGridViewController.swift */; };
-		3572CA802B198FD700A32FA8 /* DemoGridViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CA642B198FD600A32FA8 /* DemoGridViewCell.swift */; };
 		3572CA812B198FD700A32FA8 /* DemoHtmlLabelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CA662B198FD600A32FA8 /* DemoHtmlLabelController.swift */; };
 		3572CA822B198FD700A32FA8 /* DemoHtmlLabelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3572CA672B198FD600A32FA8 /* DemoHtmlLabelController.xib */; };
 		3572CA832B198FD700A32FA8 /* DemoWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3572CA692B198FD600A32FA8 /* DemoWebViewController.xib */; };
@@ -80,8 +80,8 @@
 		3572CA982B199AC700A32FA8 /* DemoPinSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CA942B199AC700A32FA8 /* DemoPinSheetController.swift */; };
 		3572CA9F2B199B0200A32FA8 /* DemoCustomToastController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3572CA9A2B199B0200A32FA8 /* DemoCustomToastController.xib */; };
 		3572CAA02B199B0200A32FA8 /* DemoCustomToastController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CA9B2B199B0200A32FA8 /* DemoCustomToastController.swift */; };
-		3572CAA12B199B0200A32FA8 /* DemoPopupMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CA9D2B199B0200A32FA8 /* DemoPopupMessageController.swift */; };
-		3572CAA22B199B0200A32FA8 /* DemoPopupMessageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3572CA9E2B199B0200A32FA8 /* DemoPopupMessageController.xib */; };
+		3572CAA12B199B0200A32FA8 /* DemoDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CA9D2B199B0200A32FA8 /* DemoDialogController.swift */; };
+		3572CAA22B199B0200A32FA8 /* DemoDialogController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3572CA9E2B199B0200A32FA8 /* DemoDialogController.xib */; };
 		3572CAA92B199B5F00A32FA8 /* DemoQRScanController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3572CAA42B199B5F00A32FA8 /* DemoQRScanController.xib */; };
 		3572CAAA2B199B5F00A32FA8 /* DemoQRScanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CAA52B199B5F00A32FA8 /* DemoQRScanController.swift */; };
 		3572CAB32B199BED00A32FA8 /* DemoDebitCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CAAE2B199BED00A32FA8 /* DemoDebitCardController.swift */; };
@@ -92,8 +92,8 @@
 		3572CAC32B199E0700A32FA8 /* DemoQRCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CAC12B199E0700A32FA8 /* DemoQRCodeController.swift */; };
 		35737F86295AB48A00BB061A /* DemoApi+Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35737F85295AB48A00BB061A /* DemoApi+Headers.swift */; };
 		35B27EFD2A2EF4C30046D428 /* DemoApi+baseUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B27EFC2A2EF4C30046D428 /* DemoApi+baseUrl.swift */; };
-		35CB8E942950330C00D5F525 /* DemoSheetMessageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CB8E902950330C00D5F525 /* DemoSheetMessageController.xib */; };
-		35CB8E952950330C00D5F525 /* DemoSheetMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CB8E912950330C00D5F525 /* DemoSheetMessageController.swift */; };
+		35CB8E942950330C00D5F525 /* DemoBottomSheetController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CB8E902950330C00D5F525 /* DemoBottomSheetController.xib */; };
+		35CB8E952950330C00D5F525 /* DemoBottomSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CB8E912950330C00D5F525 /* DemoBottomSheetController.swift */; };
 		35D4CA022B551C7E0038278F /* UIView+PDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4C99C2B551C7E0038278F /* UIView+PDF.swift */; };
 		35D4CA032B551C7E0038278F /* NetworkActivityLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4C99D2B551C7E0038278F /* NetworkActivityLogger.swift */; };
 		35D4CA042B551C7E0038278F /* NSLayoutContraint+setMultiplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4C99E2B551C7E0038278F /* NSLayoutContraint+setMultiplier.swift */; };
@@ -267,6 +267,10 @@
 		355707162995033E00A239ED /* ic_demo_sheet_grip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_demo_sheet_grip.png; sourceTree = "<group>"; };
 		3557072D2995033E00A239ED /* ic_demo_sheet_grip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_demo_sheet_grip@2x.png"; sourceTree = "<group>"; };
 		355707C62995033E00A239ED /* DemoLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DemoLaunchScreen.storyboard; sourceTree = "<group>"; };
+		356D67DC2B624D9700EC5317 /* DemoGridViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoGridViewController.xib; sourceTree = "<group>"; };
+		356D67DD2B624D9700EC5317 /* DemoGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoGridViewController.swift; sourceTree = "<group>"; };
+		356D67DE2B624D9700EC5317 /* DemoGridViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoGridViewCell.xib; sourceTree = "<group>"; };
+		356D67DF2B624D9700EC5317 /* DemoGridViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoGridViewCell.swift; sourceTree = "<group>"; };
 		3572CA512B198FD600A32FA8 /* DemoImageSliderController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoImageSliderController.xib; sourceTree = "<group>"; };
 		3572CA522B198FD600A32FA8 /* DemoDemoImageSliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoDemoImageSliderCell.swift; sourceTree = "<group>"; };
 		3572CA532B198FD600A32FA8 /* DemoImageSliderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoImageSliderController.swift; sourceTree = "<group>"; };
@@ -277,10 +281,6 @@
 		3572CA592B198FD600A32FA8 /* DemoListViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoListViewCell.xib; sourceTree = "<group>"; };
 		3572CA5E2B198FD600A32FA8 /* DemoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoController.swift; sourceTree = "<group>"; };
 		3572CA5F2B198FD600A32FA8 /* DemoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoController.xib; sourceTree = "<group>"; };
-		3572CA612B198FD600A32FA8 /* DemoGridViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoGridViewCell.xib; sourceTree = "<group>"; };
-		3572CA622B198FD600A32FA8 /* DemoGridViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoGridViewController.xib; sourceTree = "<group>"; };
-		3572CA632B198FD600A32FA8 /* DemoGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoGridViewController.swift; sourceTree = "<group>"; };
-		3572CA642B198FD600A32FA8 /* DemoGridViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoGridViewCell.swift; sourceTree = "<group>"; };
 		3572CA662B198FD600A32FA8 /* DemoHtmlLabelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoHtmlLabelController.swift; sourceTree = "<group>"; };
 		3572CA672B198FD600A32FA8 /* DemoHtmlLabelController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoHtmlLabelController.xib; sourceTree = "<group>"; };
 		3572CA692B198FD600A32FA8 /* DemoWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoWebViewController.xib; sourceTree = "<group>"; };
@@ -293,8 +293,8 @@
 		3572CA942B199AC700A32FA8 /* DemoPinSheetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPinSheetController.swift; sourceTree = "<group>"; };
 		3572CA9A2B199B0200A32FA8 /* DemoCustomToastController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoCustomToastController.xib; sourceTree = "<group>"; };
 		3572CA9B2B199B0200A32FA8 /* DemoCustomToastController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCustomToastController.swift; sourceTree = "<group>"; };
-		3572CA9D2B199B0200A32FA8 /* DemoPopupMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPopupMessageController.swift; sourceTree = "<group>"; };
-		3572CA9E2B199B0200A32FA8 /* DemoPopupMessageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoPopupMessageController.xib; sourceTree = "<group>"; };
+		3572CA9D2B199B0200A32FA8 /* DemoDialogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoDialogController.swift; sourceTree = "<group>"; };
+		3572CA9E2B199B0200A32FA8 /* DemoDialogController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoDialogController.xib; sourceTree = "<group>"; };
 		3572CAA42B199B5F00A32FA8 /* DemoQRScanController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoQRScanController.xib; sourceTree = "<group>"; };
 		3572CAA52B199B5F00A32FA8 /* DemoQRScanController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoQRScanController.swift; sourceTree = "<group>"; };
 		3572CAAE2B199BED00A32FA8 /* DemoDebitCardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoDebitCardController.swift; sourceTree = "<group>"; };
@@ -305,8 +305,8 @@
 		3572CAC12B199E0700A32FA8 /* DemoQRCodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoQRCodeController.swift; sourceTree = "<group>"; };
 		35737F85295AB48A00BB061A /* DemoApi+Headers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DemoApi+Headers.swift"; sourceTree = "<group>"; };
 		35B27EFC2A2EF4C30046D428 /* DemoApi+baseUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DemoApi+baseUrl.swift"; sourceTree = "<group>"; };
-		35CB8E902950330C00D5F525 /* DemoSheetMessageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoSheetMessageController.xib; sourceTree = "<group>"; };
-		35CB8E912950330C00D5F525 /* DemoSheetMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSheetMessageController.swift; sourceTree = "<group>"; };
+		35CB8E902950330C00D5F525 /* DemoBottomSheetController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoBottomSheetController.xib; sourceTree = "<group>"; };
+		35CB8E912950330C00D5F525 /* DemoBottomSheetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoBottomSheetController.swift; sourceTree = "<group>"; };
 		35D4C99C2B551C7E0038278F /* UIView+PDF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+PDF.swift"; sourceTree = "<group>"; };
 		35D4C99D2B551C7E0038278F /* NetworkActivityLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkActivityLogger.swift; sourceTree = "<group>"; };
 		35D4C99E2B551C7E0038278F /* NSLayoutContraint+setMultiplier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutContraint+setMultiplier.swift"; sourceTree = "<group>"; };
@@ -452,19 +452,19 @@
 		0622E19626D0085700B4D2B4 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				35CB8E8F2950330C00D5F525 /* DemoBottomSheetController */,
 				3572CA5D2B198FD600A32FA8 /* DemoController */,
 				3572CA992B199B0200A32FA8 /* DemoCustomToastController */,
 				3572CAAD2B199BED00A32FA8 /* DemoDebitCardController */,
-				3572CA602B198FD600A32FA8 /* DemoGridViewCell */,
+				3572CA9C2B199B0200A32FA8 /* DemoDialogController */,
+				356D67DB2B624D9700EC5317 /* DemoGridViewController */,
 				3572CA6B2B198FD700A32FA8 /* DemoHtmlController */,
 				3572CA652B198FD600A32FA8 /* DemoHtmlLabelController */,
 				3572CA502B198FD600A32FA8 /* DemoImageSliderController */,
 				3572CA552B198FD600A32FA8 /* DemoListViewController */,
 				3572CA922B199AC700A32FA8 /* DemoPinSheetController */,
-				3572CA9C2B199B0200A32FA8 /* DemoPopupMessageController */,
 				3572CABF2B199E0700A32FA8 /* DemoQRCodeController */,
 				3572CAA32B199B5F00A32FA8 /* DemoQRScanController */,
-				35CB8E8F2950330C00D5F525 /* DemoSheetMessageController */,
 				3572CA6E2B198FD700A32FA8 /* DemoSidebarController */,
 				0622E24726D0085800B4D2B4 /* DemoSnackBarController */,
 				3572CAB02B199BED00A32FA8 /* DemoSnackMessageController */,
@@ -599,6 +599,17 @@
 			path = ../launchscreen;
 			sourceTree = "<group>";
 		};
+		356D67DB2B624D9700EC5317 /* DemoGridViewController */ = {
+			isa = PBXGroup;
+			children = (
+				356D67DC2B624D9700EC5317 /* DemoGridViewController.xib */,
+				356D67DD2B624D9700EC5317 /* DemoGridViewController.swift */,
+				356D67DE2B624D9700EC5317 /* DemoGridViewCell.xib */,
+				356D67DF2B624D9700EC5317 /* DemoGridViewCell.swift */,
+			);
+			path = DemoGridViewController;
+			sourceTree = "<group>";
+		};
 		3572CA502B198FD600A32FA8 /* DemoImageSliderController */ = {
 			isa = PBXGroup;
 			children = (
@@ -628,17 +639,6 @@
 				3572CA5F2B198FD600A32FA8 /* DemoController.xib */,
 			);
 			path = DemoController;
-			sourceTree = "<group>";
-		};
-		3572CA602B198FD600A32FA8 /* DemoGridViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				3572CA642B198FD600A32FA8 /* DemoGridViewCell.swift */,
-				3572CA612B198FD600A32FA8 /* DemoGridViewCell.xib */,
-				3572CA632B198FD600A32FA8 /* DemoGridViewController.swift */,
-				3572CA622B198FD600A32FA8 /* DemoGridViewController.xib */,
-			);
-			path = DemoGridViewCell;
 			sourceTree = "<group>";
 		};
 		3572CA652B198FD600A32FA8 /* DemoHtmlLabelController */ = {
@@ -695,13 +695,13 @@
 			path = DemoCustomToastController;
 			sourceTree = "<group>";
 		};
-		3572CA9C2B199B0200A32FA8 /* DemoPopupMessageController */ = {
+		3572CA9C2B199B0200A32FA8 /* DemoDialogController */ = {
 			isa = PBXGroup;
 			children = (
-				3572CA9D2B199B0200A32FA8 /* DemoPopupMessageController.swift */,
-				3572CA9E2B199B0200A32FA8 /* DemoPopupMessageController.xib */,
+				3572CA9D2B199B0200A32FA8 /* DemoDialogController.swift */,
+				3572CA9E2B199B0200A32FA8 /* DemoDialogController.xib */,
 			);
-			path = DemoPopupMessageController;
+			path = DemoDialogController;
 			sourceTree = "<group>";
 		};
 		3572CAA32B199B5F00A32FA8 /* DemoQRScanController */ = {
@@ -740,13 +740,13 @@
 			path = DemoQRCodeController;
 			sourceTree = "<group>";
 		};
-		35CB8E8F2950330C00D5F525 /* DemoSheetMessageController */ = {
+		35CB8E8F2950330C00D5F525 /* DemoBottomSheetController */ = {
 			isa = PBXGroup;
 			children = (
-				35CB8E902950330C00D5F525 /* DemoSheetMessageController.xib */,
-				35CB8E912950330C00D5F525 /* DemoSheetMessageController.swift */,
+				35CB8E902950330C00D5F525 /* DemoBottomSheetController.xib */,
+				35CB8E912950330C00D5F525 /* DemoBottomSheetController.swift */,
 			);
-			path = DemoSheetMessageController;
+			path = DemoBottomSheetController;
 			sourceTree = "<group>";
 		};
 		35D4C99B2B551C7E0038278F /* utils */ = {
@@ -1042,7 +1042,6 @@
 			files = (
 				355708432995033E00A239ED /* ic_demo_sheet_close@3x.png in Resources */,
 				35F89F0F2B54F29100F02517 /* DemoMovieListContract.json in Resources */,
-				3572CA7E2B198FD700A32FA8 /* DemoGridViewController.xib in Resources */,
 				3504DB402B56607600596B62 /* ic_demo_logo@3x.png in Resources */,
 				3572CA972B199AC700A32FA8 /* DemoPinSheetController.xib in Resources */,
 				3572CAB62B199BED00A32FA8 /* DemoSnackMessageController.xib in Resources */,
@@ -1054,18 +1053,18 @@
 				355708DD2995033E00A239ED /* ic_demo_sheet_close.png in Resources */,
 				3504DB412B56607600596B62 /* ic_demo_logo@2x.png in Resources */,
 				355705772995029900A239ED /* iTunesArtwork@3x in Resources */,
+				356D67E02B624D9700EC5317 /* DemoGridViewController.xib in Resources */,
 				3572CAB42B199BED00A32FA8 /* DemoDebitCardController.xib in Resources */,
 				3557056E299501C700A239ED /* Roboto-Black.ttf in Resources */,
 				0622E4FB26D0085900B4D2B4 /* DemoSnackBarController.xib in Resources */,
 				3572CA7C2B198FD700A32FA8 /* DemoController.xib in Resources */,
 				355709692995033E00A239ED /* ic_demo_sheet_grip@2x.png in Resources */,
 				355705722995022700A239ED /* DemoAssets.xcassets in Resources */,
-				3572CA7D2B198FD700A32FA8 /* DemoGridViewCell.xib in Resources */,
 				3572CA832B198FD700A32FA8 /* DemoWebViewController.xib in Resources */,
 				355705792995029900A239ED /* iTunesArtwork@2x in Resources */,
 				3557056C299501C700A239ED /* Roboto-Bold.ttf in Resources */,
-				3572CAA22B199B0200A32FA8 /* DemoPopupMessageController.xib in Resources */,
-				35CB8E942950330C00D5F525 /* DemoSheetMessageController.xib in Resources */,
+				3572CAA22B199B0200A32FA8 /* DemoDialogController.xib in Resources */,
+				35CB8E942950330C00D5F525 /* DemoBottomSheetController.xib in Resources */,
 				355709522995033E00A239ED /* ic_demo_sheet_grip.png in Resources */,
 				3572CAA92B199B5F00A32FA8 /* DemoQRScanController.xib in Resources */,
 				35570A012995033E00A239ED /* DemoLaunchScreen.storyboard in Resources */,
@@ -1090,6 +1089,7 @@
 				3557055F299501C700A239ED /* Roboto-Regular.ttf in Resources */,
 				3572CA752B198FD700A32FA8 /* DemoListViewController.xib in Resources */,
 				3504DB422B56607600596B62 /* ic_demo_logo.png in Resources */,
+				356D67E22B624D9700EC5317 /* DemoGridViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1151,6 +1151,7 @@
 				35D4CA202B551C7E0038278F /* String+SwiftyJSON.swift in Sources */,
 				3572CA872B198FD700A32FA8 /* DemoSidebarController.swift in Sources */,
 				35D4CA3C2B551C7E0038278F /* UIView+Image.swift in Sources */,
+				356D67E12B624D9700EC5317 /* DemoGridViewController.swift in Sources */,
 				35D4CA582B551C7E0038278F /* UiFont.swift in Sources */,
 				35D4CA642B551C7E0038278F /* String+Bundle.swift in Sources */,
 				35D4CA142B551C7E0038278F /* String+Path.swift in Sources */,
@@ -1163,9 +1164,8 @@
 				35D4CA192B551C7E0038278F /* Number+stringFormat.swift in Sources */,
 				35D4CA052B551C7E0038278F /* CGFloat+Trunc.swift in Sources */,
 				35D4CA2B2B551C7E0038278F /* UIView+Borders.swift in Sources */,
-				35CB8E952950330C00D5F525 /* DemoSheetMessageController.swift in Sources */,
+				35CB8E952950330C00D5F525 /* DemoBottomSheetController.swift in Sources */,
 				35D4CA462B551C7E0038278F /* UIImage+centerCrop.swift in Sources */,
-				3572CA7F2B198FD700A32FA8 /* DemoGridViewController.swift in Sources */,
 				35D4CA392B551C7E0038278F /* String+base64Image.swift in Sources */,
 				3572CA842B198FD700A32FA8 /* DemoWebViewController.swift in Sources */,
 				3572CA862B198FD700A32FA8 /* DemoHtmlController.swift in Sources */,
@@ -1197,6 +1197,7 @@
 				35D4CA122B551C7E0038278F /* CRC32Utils.swift in Sources */,
 				3572CAB32B199BED00A32FA8 /* DemoDebitCardController.swift in Sources */,
 				35D4CA492B551C7E0038278F /* UISlider+addTapGesture.swift in Sources */,
+				356D67E32B624D9700EC5317 /* DemoGridViewCell.swift in Sources */,
 				35D4CA322B551C7E0038278F /* UITableView+SmoothReload.swift in Sources */,
 				3572CA7B2B198FD700A32FA8 /* DemoController.swift in Sources */,
 				35D4CA372B551C7E0038278F /* Date+localTime.swift in Sources */,
@@ -1214,7 +1215,6 @@
 				35D4CA152B551C7E0038278F /* UIImageView+tintColorFixes.swift in Sources */,
 				35D4CA1D2B551C7E0038278F /* HexUtils.swift in Sources */,
 				35D4CA442B551C7E0038278F /* Reachability+InternetAvailable.swift in Sources */,
-				3572CA802B198FD700A32FA8 /* DemoGridViewCell.swift in Sources */,
 				35D4CA062B551C7E0038278F /* UIApplication+Navigation.swift in Sources */,
 				3572CAB52B199BED00A32FA8 /* DemoSnackMessageController.swift in Sources */,
 				35D4CA622B551C7E0038278F /* Data+Crypto+KeyExchange.swift in Sources */,
@@ -1238,7 +1238,7 @@
 				35D4CA502B551C7E0038278F /* UIButton+enable.swift in Sources */,
 				35D4CA292B551C7E0038278F /* NSMutableAttributedString+Core.swift in Sources */,
 				35D4CA162B551C7E0038278F /* Dictionary+JSON.swift in Sources */,
-				3572CAA12B199B0200A32FA8 /* DemoPopupMessageController.swift in Sources */,
+				3572CAA12B199B0200A32FA8 /* DemoDialogController.swift in Sources */,
 				35D4CA572B551C7E0038278F /* UISegmentedControl+setValueChanged.swift in Sources */,
 				35D4CA2C2B551C7E0038278F /* WKWebView+HTML.swift in Sources */,
 				35D4CA022B551C7E0038278F /* UIView+PDF.swift in Sources */,

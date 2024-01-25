@@ -1,6 +1,6 @@
 import UIKit
 
-class DemoPopupMessageController : UIViewController {
+class DemoDialogController : UIViewController {
     @IBOutlet weak var ivIcon: UIImageView!
     @IBOutlet weak var labelMesasge: UILabel!
     @IBOutlet weak var labelDetail: UILabel!

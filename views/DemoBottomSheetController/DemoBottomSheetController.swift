@@ -1,6 +1,6 @@
 import UIKit
 
-class DemoSheetMessageController : UIViewController {
+class DemoBottomSheetController : UIViewController {
     @IBOutlet weak var bottomPaddingHeight: NSLayoutConstraint!
     @IBOutlet weak var svIcon: UIStackView!
     @IBOutlet weak var ivIcon: UIImageView!

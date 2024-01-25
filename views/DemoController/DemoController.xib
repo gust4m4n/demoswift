@@ -292,7 +292,7 @@
                                                         <constraint firstAttribute="height" constant="48" id="Dty-Zf-0I6"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
-                                                    <state key="normal" title="Sheet Message">
+                                                    <state key="normal" title="Bottom Sheet">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                     <userDefinedRuntimeAttributes>
@@ -301,7 +301,7 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                     <connections>
-                                                        <action selector="btnSheetMessageClicked:" destination="-1" eventType="touchUpInside" id="EMH-hA-Xvn"/>
+                                                        <action selector="btnBottomSheetClicked:" destination="-1" eventType="touchUpInside" id="t7N-gv-taB"/>
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="vRv-lX-HWh">
@@ -311,7 +311,7 @@
                                                         <constraint firstAttribute="height" constant="48" id="X6y-Ra-DxQ"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
-                                                    <state key="normal" title="Popup Message">
+                                                    <state key="normal" title="Dialog">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                     <userDefinedRuntimeAttributes>
@@ -320,7 +320,7 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                     <connections>
-                                                        <action selector="btnPopupMessageClicked:" destination="-1" eventType="touchUpInside" id="sTq-Cn-dDr"/>
+                                                        <action selector="btnDialogClicked:" destination="-1" eventType="touchUpInside" id="rAq-ir-eVJ"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -379,7 +379,7 @@
                                                         <constraint firstAttribute="height" constant="48" id="bg0-z8-dRS"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
-                                                    <state key="normal" title="Sidebar">
+                                                    <state key="normal" title="Drawer">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                     <userDefinedRuntimeAttributes>
@@ -388,7 +388,7 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                     <connections>
-                                                        <action selector="btnSidebarClicked:" destination="-1" eventType="touchUpInside" id="LJi-G3-jeO"/>
+                                                        <action selector="btnDrawerClicked:" destination="-1" eventType="touchUpInside" id="no7-ef-qgp"/>
                                                     </connections>
                                                 </button>
                                             </subviews>

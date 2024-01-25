@@ -50,16 +50,16 @@ class DemoController : UIViewController {
         });
     }
 
-    @IBAction func btnSheetMessageClicked(_ sender: UIButton?) {
-        let controller = DemoSheetMessageController()
+    @IBAction func btnBottomSheetClicked(_ sender: UIButton?) {
+        let controller = DemoBottomSheetController()
         controller.sheetShow(icon: "ic_demo_logo.png", message: LoremIpsumX.tiny(), detail: LoremIpsumX.medium(), btnLeftTitle: NSLocalizedString("OK", comment: ""), btnLeftDidClicked: {
         }, btnRightTitle: NSLocalizedString("Cancel", comment: ""), btnRightDidClicked: {
         }, didAutoClose: {
         });
     }
 
-    @IBAction func btnPopupMessageClicked(_ sender: UIButton?) {
-        let controller = DemoPopupMessageController()
+    @IBAction func btnDialogClicked(_ sender: UIButton?) {
+        let controller = DemoDialogController()
         controller.popupShow(icon: "ic_demo_logo.png", message: LoremIpsumX.tiny(), detail: LoremIpsumX.medium(), btnLeftTitle: NSLocalizedString("OK", comment: ""), btnLeftDidClicked: {
         }, btnRightTitle: NSLocalizedString("Cancel", comment: ""), btnRightDidClicked: {
         }, didAutoClose: {
@@ -134,7 +134,7 @@ class DemoController : UIViewController {
         let key = "9b2611f319e2c88f1dce0a7a612bcf1f5b037bc66b9e8144725da7faf16cc3f2"
         let encrypted = plain.data().encryptXOR(key.data())
         let decrypted = encrypted.decryptXOR(key.data())
-        let controller = DemoSheetMessageController()
+        let controller = DemoBottomSheetController()
         controller.sheetShow(icon: "", message: "XOR", detail: "plain: \(plain)\nencrypted: \(encrypted.encodeHEX())\ndecrypted: \(decrypted.string())", btnLeftTitle: NSLocalizedString("OK", comment: ""), btnLeftDidClicked: {
         }, btnRightTitle: "", btnRightDidClicked: {
         }, didAutoClose: {
@@ -144,7 +144,7 @@ class DemoController : UIViewController {
     @IBAction func btnMd5Clicked(_ sender: UIButton?) {
         let plain = LoremIpsumX.medium()
         let digest = plain.data().md5().encodeHEX()
-        let controller = DemoSheetMessageController()
+        let controller = DemoBottomSheetController()
         controller.sheetShow(icon: "", message: "MD5", detail: "plain: \(plain)\ndigest: \(digest)", btnLeftTitle: NSLocalizedString("OK", comment: ""), btnLeftDidClicked: {
         }, btnRightTitle: "", btnRightDidClicked: {
         }, didAutoClose: {
@@ -154,7 +154,7 @@ class DemoController : UIViewController {
     @IBAction func btnShaClicked(_ sender: UIButton?) {
         let plain = LoremIpsumX.medium()
         let digest = plain.data().sha().encodeHEX()
-        let controller = DemoSheetMessageController()
+        let controller = DemoBottomSheetController()
         controller.sheetShow(icon: "", message: "SHA", detail: "plain: \(plain)\ndigest: \(digest)", btnLeftTitle: NSLocalizedString("OK", comment: ""), btnLeftDidClicked: {
         }, btnRightTitle: "", btnRightDidClicked: {
         }, didAutoClose: {
@@ -165,7 +165,7 @@ class DemoController : UIViewController {
         let plain = LoremIpsumX.medium()
         let encrypted = plain.data().encryptDouble()
         let decrypted = encrypted.decryptDouble()
-        let controller = DemoSheetMessageController()
+        let controller = DemoBottomSheetController()
         controller.sheetShow(icon: "", message: "DoubleEncrypt", detail: "plain: \(plain)\nencrypted: \(encrypted.encodeHEX())\ndecrypted: \(decrypted.string())", btnLeftTitle: NSLocalizedString("OK", comment: ""), btnLeftDidClicked: {
         }, btnRightTitle: "", btnRightDidClicked: {
         }, didAutoClose: {
@@ -176,7 +176,7 @@ class DemoController : UIViewController {
         let plain = LoremIpsumX.medium()
         let encoded = plain.data().encodeBase64()
         let decoded = encoded.decodeBase64()
-        let controller = DemoSheetMessageController()
+        let controller = DemoBottomSheetController()
         controller.sheetShow(icon: "", message: "Base64", detail: "plain: \(plain)\nencoded: \(encoded)\ndecoded: \(decoded.string())", btnLeftTitle: NSLocalizedString("OK", comment: ""), btnLeftDidClicked: {
         }, btnRightTitle: "", btnRightDidClicked: {
         }, didAutoClose: {
@@ -189,7 +189,7 @@ class DemoController : UIViewController {
         let iv = "89e4ea9f678d2e94d9548043f54db492"        
         let encrypted = plain.data().encryptAES(key.decodeHEX(), iv.decodeHEX())
         let decrypted = encrypted.decryptAES(key.decodeHEX(), iv.decodeHEX())
-        let controller = DemoSheetMessageController()
+        let controller = DemoBottomSheetController()
         controller.sheetShow(icon: "", message: "AES", detail: "plain: \(plain)\nencrypted: \(encrypted.encodeHEX())\ndecrypted: \(decrypted.string())", btnLeftTitle: NSLocalizedString("OK", comment: ""), btnLeftDidClicked: {
         }, btnRightTitle: "", btnRightDidClicked: {
         }, didAutoClose: {
@@ -200,7 +200,7 @@ class DemoController : UIViewController {
         let plain = LoremIpsumX.medium()
         let encoded = plain.data().encodeHEX()
         let decoded = encoded.decodeHEX()
-        let controller = DemoSheetMessageController()
+        let controller = DemoBottomSheetController()
         controller.sheetShow(icon: "", message: "HEX", detail: "plain: \(plain)\nencoded: \(encoded)\ndecoded: \(decoded.string())", btnLeftTitle: NSLocalizedString("OK", comment: ""), btnLeftDidClicked: {
         }, btnRightTitle: "", btnRightDidClicked: {
         }, didAutoClose: {
@@ -211,14 +211,14 @@ class DemoController : UIViewController {
     @IBAction func btnCrc32Clicked(_ sender: UIButton?) {
         let plain = LoremIpsumX.medium()
         let checksum = plain.data().crc()
-        let controller = DemoSheetMessageController()
+        let controller = DemoBottomSheetController()
         controller.sheetShow(icon: "", message: "CRC", detail: "plain: \(plain)\nchecksum: \(checksum)", btnLeftTitle: NSLocalizedString("OK", comment: ""), btnLeftDidClicked: {
         }, btnRightTitle: "", btnRightDidClicked: {
         }, didAutoClose: {
         });
     }
         
-    @IBAction func btnSidebarClicked(_ sender: UIButton?) {
+    @IBAction func btnDrawerClicked(_ sender: UIButton?) {
         let controller = DemoSidebarController()
         controller.sheetShow(width: UIScreen.main.bounds.size.width * 0.8, direction: .right, didAutoClose: {
         })
