@@ -219,7 +219,7 @@ class DemoController : UIViewController {
     }
         
     @IBAction func btnDrawerClicked(_ sender: UIButton?) {
-        let controller = DemoSidebarController()
+        let controller = DemoDrawerController()
         controller.sheetShow(width: UIScreen.main.bounds.size.width * 0.8, direction: .right, didAutoClose: {
         })
     }

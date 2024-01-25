@@ -97,7 +97,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="g4P-MC-dr6"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="Debit Card">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -141,7 +141,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="2hd-zM-ROF"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="PIN">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -185,7 +185,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="YmD-4y-QQp"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="ListView">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -204,7 +204,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="lQG-SA-Zp4"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="GridView">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -248,7 +248,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="Qib-RX-Jny"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="Toast">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -267,7 +267,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="SNd-Gi-ZLP"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="Custom Toast">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -291,7 +291,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="Dty-Zf-0I6"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="Bottom Sheet">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -310,7 +310,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="X6y-Ra-DxQ"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="Dialog">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -334,7 +334,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="fPE-IW-Ecj"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="SnackBar">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -378,7 +378,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="bg0-z8-dRS"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="Drawer">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -422,7 +422,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="6tF-6n-Otc"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="QR Code">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -441,7 +441,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="h0r-7f-Ybj"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="QR Scan">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -485,7 +485,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="dbf-vn-5KM"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="Date Picker">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -509,7 +509,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="F1N-8P-m0l"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="Camera">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -528,7 +528,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="DXb-7I-vjV"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="Gallery">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -572,7 +572,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="zO8-gz-mi2"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="WebView">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -591,7 +591,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="NgG-BX-Kcd"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="WebView HTML">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -615,7 +615,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="j6g-0c-wQr"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="HTML Label">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -659,7 +659,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="2cE-q3-4pW"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="HEX">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -678,7 +678,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="hpr-u3-7oO"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="Base64">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -702,7 +702,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="ANE-zy-06m"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="MD5">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -721,7 +721,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="eDT-yP-zjd"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="SHA">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -745,7 +745,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="aG5-Ca-js6"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="XOR">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -764,7 +764,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="3p0-3c-Rs9"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="CRC">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -788,7 +788,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="FnA-lJ-w6l"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="AES">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -807,7 +807,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="AxI-1M-QPR"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="DoubleEncrypt">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -851,7 +851,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="alc-Cj-tax"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="Text">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -870,7 +870,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="GGm-2g-1to"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="Image">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -914,7 +914,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="38o-tc-kcI"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="Call">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -933,7 +933,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="nUX-ru-XND"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="SMS">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -957,7 +957,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="crT-fv-zN9"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="Navigate">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -976,7 +976,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="QVW-sF-muQ"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="Email">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
@@ -1000,7 +1000,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="rdi-UX-qnI"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                                                     <state key="normal" title="Whatsapp">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>

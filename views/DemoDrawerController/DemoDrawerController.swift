@@ -1,6 +1,6 @@
 import UIKit
 
-class DemoSidebarController : UIViewController {
+class DemoDrawerController : UIViewController {
     @IBOutlet weak var ivAvatar: UIImageView!
     @IBOutlet weak var labelFullname: UILabel!
     @IBOutlet weak var labelUsername: UILabel!

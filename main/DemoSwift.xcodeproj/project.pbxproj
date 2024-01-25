@@ -74,8 +74,8 @@
 		3572CA842B198FD700A32FA8 /* DemoWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CA6A2B198FD600A32FA8 /* DemoWebViewController.swift */; };
 		3572CA852B198FD700A32FA8 /* DemoHtmlController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3572CA6C2B198FD700A32FA8 /* DemoHtmlController.xib */; };
 		3572CA862B198FD700A32FA8 /* DemoHtmlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CA6D2B198FD700A32FA8 /* DemoHtmlController.swift */; };
-		3572CA872B198FD700A32FA8 /* DemoSidebarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CA6F2B198FD700A32FA8 /* DemoSidebarController.swift */; };
-		3572CA882B198FD700A32FA8 /* DemoSidebarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3572CA702B198FD700A32FA8 /* DemoSidebarController.xib */; };
+		3572CA872B198FD700A32FA8 /* DemoDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CA6F2B198FD700A32FA8 /* DemoDrawerController.swift */; };
+		3572CA882B198FD700A32FA8 /* DemoDrawerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3572CA702B198FD700A32FA8 /* DemoDrawerController.xib */; };
 		3572CA972B199AC700A32FA8 /* DemoPinSheetController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3572CA932B199AC700A32FA8 /* DemoPinSheetController.xib */; };
 		3572CA982B199AC700A32FA8 /* DemoPinSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CA942B199AC700A32FA8 /* DemoPinSheetController.swift */; };
 		3572CA9F2B199B0200A32FA8 /* DemoCustomToastController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3572CA9A2B199B0200A32FA8 /* DemoCustomToastController.xib */; };
@@ -287,8 +287,8 @@
 		3572CA6A2B198FD600A32FA8 /* DemoWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoWebViewController.swift; sourceTree = "<group>"; };
 		3572CA6C2B198FD700A32FA8 /* DemoHtmlController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoHtmlController.xib; sourceTree = "<group>"; };
 		3572CA6D2B198FD700A32FA8 /* DemoHtmlController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoHtmlController.swift; sourceTree = "<group>"; };
-		3572CA6F2B198FD700A32FA8 /* DemoSidebarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSidebarController.swift; sourceTree = "<group>"; };
-		3572CA702B198FD700A32FA8 /* DemoSidebarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoSidebarController.xib; sourceTree = "<group>"; };
+		3572CA6F2B198FD700A32FA8 /* DemoDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoDrawerController.swift; sourceTree = "<group>"; };
+		3572CA702B198FD700A32FA8 /* DemoDrawerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoDrawerController.xib; sourceTree = "<group>"; };
 		3572CA932B199AC700A32FA8 /* DemoPinSheetController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoPinSheetController.xib; sourceTree = "<group>"; };
 		3572CA942B199AC700A32FA8 /* DemoPinSheetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPinSheetController.swift; sourceTree = "<group>"; };
 		3572CA9A2B199B0200A32FA8 /* DemoCustomToastController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoCustomToastController.xib; sourceTree = "<group>"; };
@@ -457,6 +457,7 @@
 				3572CA992B199B0200A32FA8 /* DemoCustomToastController */,
 				3572CAAD2B199BED00A32FA8 /* DemoDebitCardController */,
 				3572CA9C2B199B0200A32FA8 /* DemoDialogController */,
+				3572CA6E2B198FD700A32FA8 /* DemoDrawerController */,
 				356D67DB2B624D9700EC5317 /* DemoGridViewController */,
 				3572CA6B2B198FD700A32FA8 /* DemoHtmlController */,
 				3572CA652B198FD600A32FA8 /* DemoHtmlLabelController */,
@@ -465,7 +466,6 @@
 				3572CA922B199AC700A32FA8 /* DemoPinSheetController */,
 				3572CABF2B199E0700A32FA8 /* DemoQRCodeController */,
 				3572CAA32B199B5F00A32FA8 /* DemoQRScanController */,
-				3572CA6E2B198FD700A32FA8 /* DemoSidebarController */,
 				0622E24726D0085800B4D2B4 /* DemoSnackBarController */,
 				3572CAB02B199BED00A32FA8 /* DemoSnackMessageController */,
 				3572CA682B198FD600A32FA8 /* DemoWebViewController */,
@@ -668,13 +668,13 @@
 			path = DemoHtmlController;
 			sourceTree = "<group>";
 		};
-		3572CA6E2B198FD700A32FA8 /* DemoSidebarController */ = {
+		3572CA6E2B198FD700A32FA8 /* DemoDrawerController */ = {
 			isa = PBXGroup;
 			children = (
-				3572CA6F2B198FD700A32FA8 /* DemoSidebarController.swift */,
-				3572CA702B198FD700A32FA8 /* DemoSidebarController.xib */,
+				3572CA6F2B198FD700A32FA8 /* DemoDrawerController.swift */,
+				3572CA702B198FD700A32FA8 /* DemoDrawerController.xib */,
 			);
-			path = DemoSidebarController;
+			path = DemoDrawerController;
 			sourceTree = "<group>";
 		};
 		3572CA922B199AC700A32FA8 /* DemoPinSheetController */ = {
@@ -1046,7 +1046,7 @@
 				3572CA972B199AC700A32FA8 /* DemoPinSheetController.xib in Resources */,
 				3572CAB62B199BED00A32FA8 /* DemoSnackMessageController.xib in Resources */,
 				3557056B299501C700A239ED /* Roboto-BlackItalic.ttf in Resources */,
-				3572CA882B198FD700A32FA8 /* DemoSidebarController.xib in Resources */,
+				3572CA882B198FD700A32FA8 /* DemoDrawerController.xib in Resources */,
 				3572CA822B198FD700A32FA8 /* DemoHtmlLabelController.xib in Resources */,
 				3557055D299501C700A239ED /* Roboto-Light.ttf in Resources */,
 				35570568299501C700A239ED /* Roboto-LightItalic.ttf in Resources */,
@@ -1149,7 +1149,7 @@
 				35D4CA562B551C7E0038278F /* SecureTextField.swift in Sources */,
 				35D4CA612B551C7E0038278F /* SwiftyJSON+Bundle.swift in Sources */,
 				35D4CA202B551C7E0038278F /* String+SwiftyJSON.swift in Sources */,
-				3572CA872B198FD700A32FA8 /* DemoSidebarController.swift in Sources */,
+				3572CA872B198FD700A32FA8 /* DemoDrawerController.swift in Sources */,
 				35D4CA3C2B551C7E0038278F /* UIView+Image.swift in Sources */,
 				356D67E12B624D9700EC5317 /* DemoGridViewController.swift in Sources */,
 				35D4CA582B551C7E0038278F /* UiFont.swift in Sources */,
