@@ -58,6 +58,7 @@
 		356D67E12B624D9700EC5317 /* DemoGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356D67DD2B624D9700EC5317 /* DemoGridViewController.swift */; };
 		356D67E22B624D9700EC5317 /* DemoGridViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356D67DE2B624D9700EC5317 /* DemoGridViewCell.xib */; };
 		356D67E32B624D9700EC5317 /* DemoGridViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356D67DF2B624D9700EC5317 /* DemoGridViewCell.swift */; };
+		356D67E82B62588A00EC5317 /* colors_x.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356D67E72B62588A00EC5317 /* colors_x.swift */; };
 		3572CA712B198FD700A32FA8 /* DemoImageSliderController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3572CA512B198FD600A32FA8 /* DemoImageSliderController.xib */; };
 		3572CA722B198FD700A32FA8 /* DemoDemoImageSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CA522B198FD600A32FA8 /* DemoDemoImageSliderCell.swift */; };
 		3572CA732B198FD700A32FA8 /* DemoImageSliderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3572CA532B198FD600A32FA8 /* DemoImageSliderController.swift */; };
@@ -271,6 +272,7 @@
 		356D67DD2B624D9700EC5317 /* DemoGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoGridViewController.swift; sourceTree = "<group>"; };
 		356D67DE2B624D9700EC5317 /* DemoGridViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoGridViewCell.xib; sourceTree = "<group>"; };
 		356D67DF2B624D9700EC5317 /* DemoGridViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoGridViewCell.swift; sourceTree = "<group>"; };
+		356D67E72B62588A00EC5317 /* colors_x.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colors_x.swift; sourceTree = "<group>"; };
 		3572CA512B198FD600A32FA8 /* DemoImageSliderController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoImageSliderController.xib; sourceTree = "<group>"; };
 		3572CA522B198FD600A32FA8 /* DemoDemoImageSliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoDemoImageSliderCell.swift; sourceTree = "<group>"; };
 		3572CA532B198FD600A32FA8 /* DemoImageSliderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoImageSliderController.swift; sourceTree = "<group>"; };
@@ -610,6 +612,15 @@
 			path = DemoGridViewController;
 			sourceTree = "<group>";
 		};
+		356D67E42B62586000EC5317 /* widgets */ = {
+			isa = PBXGroup;
+			children = (
+				356D67E72B62588A00EC5317 /* colors_x.swift */,
+			);
+			name = widgets;
+			path = ../widgets;
+			sourceTree = "<group>";
+		};
 		3572CA502B198FD600A32FA8 /* DemoImageSliderController */ = {
 			isa = PBXGroup;
 			children = (
@@ -878,6 +889,7 @@
 				35D4C99B2B551C7E0038278F /* utils */,
 				0622E3A526D0085800B4D2B4 /* viewmodels */,
 				0622E19626D0085700B4D2B4 /* views */,
+				356D67E42B62586000EC5317 /* widgets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1196,6 +1208,7 @@
 				3572CAC32B199E0700A32FA8 /* DemoQRCodeController.swift in Sources */,
 				35D4CA122B551C7E0038278F /* CRC32Utils.swift in Sources */,
 				3572CAB32B199BED00A32FA8 /* DemoDebitCardController.swift in Sources */,
+				356D67E82B62588A00EC5317 /* colors_x.swift in Sources */,
 				35D4CA492B551C7E0038278F /* UISlider+addTapGesture.swift in Sources */,
 				356D67E32B624D9700EC5317 /* DemoGridViewCell.swift in Sources */,
 				35D4CA322B551C7E0038278F /* UITableView+SmoothReload.swift in Sources */,

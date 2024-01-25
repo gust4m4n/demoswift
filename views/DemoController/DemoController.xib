@@ -57,7 +57,7 @@
                             </subviews>
                         </stackView>
                     </subviews>
-                    <color key="backgroundColor" red="0.21960783" green="0.49803921579999999" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <color key="backgroundColor" red="0.0" green="0.4823529411764706" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="6Bf-Ih-AeA" secondAttribute="bottom" id="4cL-Wd-O2N"/>
                         <constraint firstItem="6Bf-Ih-AeA" firstAttribute="leading" secondItem="nZ6-74-s0L" secondAttribute="leading" id="VnE-6e-SqF"/>
@@ -67,15 +67,15 @@
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="roA-f2-N8D">
                     <rect key="frame" x="0.0" y="103" width="414" height="3150"/>
                     <subviews>
-                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="XUo-CA-pGd">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="1496"/>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="XUo-CA-pGd">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1376"/>
                             <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="iip-gV-6dQ">
-                                    <rect key="frame" x="16" y="16" width="382" height="80"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="iip-gV-6dQ">
+                                    <rect key="frame" x="16" y="16" width="382" height="76"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login and Accounts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yv9-HV-geW">
                                             <rect key="frame" x="0.0" y="0.0" width="382" height="24"/>
-                                            <color key="backgroundColor" red="0.42745098469999998" green="0.45490193369999998" blue="0.49019610879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.42352941176470588" green="0.45882352941176469" blue="0.49019607843137253" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="24" id="VOJ-3R-X0m"/>
                                             </constraints>
@@ -89,11 +89,11 @@
                                             </userDefinedRuntimeAttributes>
                                         </label>
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="USt-gH-opj">
-                                            <rect key="frame" x="0.0" y="32" width="382" height="48"/>
+                                            <rect key="frame" x="0.0" y="28" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1l1-ob-9F0">
                                                     <rect key="frame" x="0.0" y="0.0" width="382" height="48"/>
-                                                    <color key="backgroundColor" red="0.27843138579999999" green="0.61960786580000005" blue="0.70980393890000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="backgroundColor" red="0.090196078431372548" green="0.63529411764705879" blue="0.72156862745098038" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="g4P-MC-dr6"/>
                                                     </constraints>
@@ -114,12 +114,12 @@
                                         </stackView>
                                     </subviews>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="4JX-PJ-1e5">
-                                    <rect key="frame" x="16" y="104" width="382" height="80"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="4JX-PJ-1e5">
+                                    <rect key="frame" x="16" y="96" width="382" height="76"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OTP &amp; PIN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGF-Dw-c6l">
                                             <rect key="frame" x="0.0" y="0.0" width="382" height="24"/>
-                                            <color key="backgroundColor" red="0.42745098469999998" green="0.45490193369999998" blue="0.49019610879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.42352941179999998" green="0.45882352939999999" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="24" id="KZ3-9P-V2P"/>
                                             </constraints>
@@ -132,12 +132,12 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </label>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Joe-Rl-SB2">
-                                            <rect key="frame" x="0.0" y="32" width="382" height="48"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Joe-Rl-SB2">
+                                            <rect key="frame" x="0.0" y="28" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Q83-S9-Nrd">
                                                     <rect key="frame" x="0.0" y="0.0" width="382" height="48"/>
-                                                    <color key="backgroundColor" red="0.30196079609999998" green="0.63137257099999999" blue="0.31372550129999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="backgroundColor" red="0.15686274509803921" green="0.65490196078431373" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="2hd-zM-ROF"/>
                                                     </constraints>
@@ -158,12 +158,12 @@
                                         </stackView>
                                     </subviews>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="FoO-PK-zHV">
-                                    <rect key="frame" x="16" y="192" width="382" height="80"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="FoO-PK-zHV">
+                                    <rect key="frame" x="16" y="176" width="382" height="76"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grid and ListView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Wi-De-okB">
                                             <rect key="frame" x="0.0" y="0.0" width="382" height="24"/>
-                                            <color key="backgroundColor" red="0.42745098469999998" green="0.45490193369999998" blue="0.49019610879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.42352941179999998" green="0.45882352939999999" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="24" id="gtV-No-Jva"/>
                                             </constraints>
@@ -176,12 +176,12 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </label>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="HoA-aM-ziC">
-                                            <rect key="frame" x="0.0" y="32" width="382" height="48"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="HoA-aM-ziC">
+                                            <rect key="frame" x="0.0" y="28" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2pC-et-xHB">
-                                                    <rect key="frame" x="0.0" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.96078431610000004" green="0.76470589639999997" blue="0.26274511220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="1" green="0.75686274509803919" blue="0.027450980392156862" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="YmD-4y-QQp"/>
                                                     </constraints>
@@ -199,8 +199,8 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Qhu-K9-EvT">
-                                                    <rect key="frame" x="195" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.96078431610000004" green="0.76470589639999997" blue="0.26274511220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="193" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="1" green="0.75686274509803919" blue="0.027450980392156862" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="lQG-SA-Zp4"/>
                                                     </constraints>
@@ -221,12 +221,12 @@
                                         </stackView>
                                     </subviews>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="uBz-Xz-MDX">
-                                    <rect key="frame" x="16" y="280" width="382" height="192"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="uBz-Xz-MDX">
+                                    <rect key="frame" x="16" y="256" width="382" height="180"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alert and Toasts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkb-bS-NMY">
                                             <rect key="frame" x="0.0" y="0.0" width="382" height="24"/>
-                                            <color key="backgroundColor" red="0.42745098469999998" green="0.45490193369999998" blue="0.49019610879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.42352941179999998" green="0.45882352939999999" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="24" id="LtG-ay-tAx"/>
                                             </constraints>
@@ -239,12 +239,12 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </label>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="da3-ck-loZ">
-                                            <rect key="frame" x="0.0" y="32" width="382" height="48"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="da3-ck-loZ">
+                                            <rect key="frame" x="0.0" y="28" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Nau-SC-daK">
-                                                    <rect key="frame" x="0.0" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.80000001190000003" green="0.29803922770000002" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="0.86274509803921573" green="0.20784313725490194" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="Qib-RX-Jny"/>
                                                     </constraints>
@@ -262,8 +262,8 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="pVd-WT-Pna">
-                                                    <rect key="frame" x="195" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.80000001190000003" green="0.29803922770000002" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="193" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="0.86274509803921573" green="0.20784313725490194" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="SNd-Gi-ZLP"/>
                                                     </constraints>
@@ -282,12 +282,12 @@
                                                 </button>
                                             </subviews>
                                         </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6Pa-n7-Oxb">
-                                            <rect key="frame" x="0.0" y="88" width="382" height="48"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="6Pa-n7-Oxb">
+                                            <rect key="frame" x="0.0" y="80" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1Pp-J4-CdJ">
-                                                    <rect key="frame" x="0.0" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.80000001190000003" green="0.29803922770000002" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="0.86274509799999999" green="0.20784313730000001" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="Dty-Zf-0I6"/>
                                                     </constraints>
@@ -305,8 +305,8 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="vRv-lX-HWh">
-                                                    <rect key="frame" x="195" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.80000001190000003" green="0.29803922770000002" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="193" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="0.86274509799999999" green="0.20784313730000001" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="X6y-Ra-DxQ"/>
                                                     </constraints>
@@ -325,12 +325,12 @@
                                                 </button>
                                             </subviews>
                                         </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="9It-pm-xNm">
-                                            <rect key="frame" x="0.0" y="144" width="382" height="48"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="9It-pm-xNm">
+                                            <rect key="frame" x="0.0" y="132" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Eb6-3B-Eqa">
                                                     <rect key="frame" x="0.0" y="0.0" width="382" height="48"/>
-                                                    <color key="backgroundColor" red="0.80000001190000003" green="0.29803922770000002" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="backgroundColor" red="0.86274509799999999" green="0.20784313730000001" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="fPE-IW-Ecj"/>
                                                     </constraints>
@@ -351,12 +351,12 @@
                                         </stackView>
                                     </subviews>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Phf-bS-odX">
-                                    <rect key="frame" x="16" y="480" width="382" height="80"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Phf-bS-odX">
+                                    <rect key="frame" x="16" y="440" width="382" height="76"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TabBar and Pager" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gf7-dr-fyd">
                                             <rect key="frame" x="0.0" y="0.0" width="382" height="24"/>
-                                            <color key="backgroundColor" red="0.42745098469999998" green="0.45490193369999998" blue="0.49019610879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.42352941179999998" green="0.45882352939999999" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="24" id="MAa-oT-CjN"/>
                                             </constraints>
@@ -369,12 +369,12 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </label>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ss0-rk-Fa7">
-                                            <rect key="frame" x="0.0" y="32" width="382" height="48"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="ss0-rk-Fa7">
+                                            <rect key="frame" x="0.0" y="28" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="RFV-Nv-a56">
                                                     <rect key="frame" x="0.0" y="0.0" width="382" height="48"/>
-                                                    <color key="backgroundColor" red="0.27843138579999999" green="0.61960786580000005" blue="0.70980393890000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="backgroundColor" red="0.090196078430000007" green="0.63529411759999999" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="bg0-z8-dRS"/>
                                                     </constraints>
@@ -395,12 +395,12 @@
                                         </stackView>
                                     </subviews>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5xP-mk-gzK">
-                                    <rect key="frame" x="16" y="568" width="382" height="80"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="5xP-mk-gzK">
+                                    <rect key="frame" x="16" y="520" width="382" height="76"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wR6-rm-Ggb">
                                             <rect key="frame" x="0.0" y="0.0" width="382" height="24"/>
-                                            <color key="backgroundColor" red="0.42745098469999998" green="0.45490193369999998" blue="0.49019610879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.42352941179999998" green="0.45882352939999999" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="24" id="J7E-bp-4RR"/>
                                             </constraints>
@@ -413,12 +413,12 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </label>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="z4e-qs-ytT">
-                                            <rect key="frame" x="0.0" y="32" width="382" height="48"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="z4e-qs-ytT">
+                                            <rect key="frame" x="0.0" y="28" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="wpi-h2-mXC">
-                                                    <rect key="frame" x="0.0" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.30196079609999998" green="0.63137257099999999" blue="0.31372550129999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="0.15686274510000001" green="0.65490196079999996" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="6tF-6n-Otc"/>
                                                     </constraints>
@@ -436,8 +436,8 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gwW-Db-fBO">
-                                                    <rect key="frame" x="195" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.30196079609999998" green="0.63137257099999999" blue="0.31372550129999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="193" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="0.15686274510000001" green="0.65490196079999996" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="h0r-7f-Ybj"/>
                                                     </constraints>
@@ -458,12 +458,12 @@
                                         </stackView>
                                     </subviews>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="C3R-ln-p3h">
-                                    <rect key="frame" x="16" y="656" width="382" height="136"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="C3R-ln-p3h">
+                                    <rect key="frame" x="16" y="600" width="382" height="128"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pickers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2AP-Wk-joG">
                                             <rect key="frame" x="0.0" y="0.0" width="382" height="24"/>
-                                            <color key="backgroundColor" red="0.42745098469999998" green="0.45490193369999998" blue="0.49019610879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.42352941179999998" green="0.45882352939999999" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="24" id="oTZ-7N-F4I"/>
                                             </constraints>
@@ -476,12 +476,12 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </label>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="lNc-pd-i3B">
-                                            <rect key="frame" x="0.0" y="32" width="382" height="48"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="lNc-pd-i3B">
+                                            <rect key="frame" x="0.0" y="28" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Npt-nh-v6h">
                                                     <rect key="frame" x="0.0" y="0.0" width="382" height="48"/>
-                                                    <color key="backgroundColor" red="0.96078431610000004" green="0.76470589639999997" blue="0.26274511220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="backgroundColor" red="1" green="0.75686274509999996" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="dbf-vn-5KM"/>
                                                     </constraints>
@@ -500,12 +500,12 @@
                                                 </button>
                                             </subviews>
                                         </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="59x-Tm-7dH">
-                                            <rect key="frame" x="0.0" y="88" width="382" height="48"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="59x-Tm-7dH">
+                                            <rect key="frame" x="0.0" y="80" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Za3-wT-5ZS">
-                                                    <rect key="frame" x="0.0" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.96078431610000004" green="0.76470589639999997" blue="0.26274511220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="1" green="0.75686274509999996" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="F1N-8P-m0l"/>
                                                     </constraints>
@@ -523,8 +523,8 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="BIg-qx-iHR">
-                                                    <rect key="frame" x="195" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.96078431610000004" green="0.76470589639999997" blue="0.26274511220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="193" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="1" green="0.75686274509999996" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="DXb-7I-vjV"/>
                                                     </constraints>
@@ -545,12 +545,12 @@
                                         </stackView>
                                     </subviews>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="1Kv-Mp-vLb">
-                                    <rect key="frame" x="16" y="800" width="382" height="136"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="1Kv-Mp-vLb">
+                                    <rect key="frame" x="16" y="732" width="382" height="128"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WebView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63Q-Q3-NVo">
                                             <rect key="frame" x="0.0" y="0.0" width="382" height="24"/>
-                                            <color key="backgroundColor" red="0.42745098469999998" green="0.45490193369999998" blue="0.49019610879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.42352941179999998" green="0.45882352939999999" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="24" id="Gag-8i-3mU"/>
                                             </constraints>
@@ -563,12 +563,12 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </label>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="XCk-D6-HSQ">
-                                            <rect key="frame" x="0.0" y="32" width="382" height="48"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="XCk-D6-HSQ">
+                                            <rect key="frame" x="0.0" y="28" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="izO-xM-djl">
-                                                    <rect key="frame" x="0.0" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.80000001190000003" green="0.29803922770000002" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="0.86274509799999999" green="0.20784313730000001" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="zO8-gz-mi2"/>
                                                     </constraints>
@@ -586,8 +586,8 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Zlk-Yr-306">
-                                                    <rect key="frame" x="195" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.80000001190000003" green="0.29803922770000002" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="193" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="0.86274509799999999" green="0.20784313730000001" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="NgG-BX-Kcd"/>
                                                     </constraints>
@@ -606,12 +606,12 @@
                                                 </button>
                                             </subviews>
                                         </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="S1Q-Gv-Dix">
-                                            <rect key="frame" x="0.0" y="88" width="382" height="48"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="S1Q-Gv-Dix">
+                                            <rect key="frame" x="0.0" y="80" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fBl-er-WgD">
                                                     <rect key="frame" x="0.0" y="0.0" width="382" height="48"/>
-                                                    <color key="backgroundColor" red="0.80000001190000003" green="0.29803922770000002" blue="0.2901961207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="backgroundColor" red="0.86274509799999999" green="0.20784313730000001" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="j6g-0c-wQr"/>
                                                     </constraints>
@@ -632,12 +632,12 @@
                                         </stackView>
                                     </subviews>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Grc-RX-JWI">
-                                    <rect key="frame" x="16" y="944" width="382" height="248"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Grc-RX-JWI">
+                                    <rect key="frame" x="16" y="864" width="382" height="232"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Security" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZb-Nj-baE">
                                             <rect key="frame" x="0.0" y="0.0" width="382" height="24"/>
-                                            <color key="backgroundColor" red="0.42745098469999998" green="0.45490193369999998" blue="0.49019610879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.42352941179999998" green="0.45882352939999999" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="24" id="OmO-4L-aq3"/>
                                             </constraints>
@@ -650,12 +650,12 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </label>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="MJc-Zn-wcz">
-                                            <rect key="frame" x="0.0" y="32" width="382" height="48"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="MJc-Zn-wcz">
+                                            <rect key="frame" x="0.0" y="28" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2Ch-G4-M8w">
-                                                    <rect key="frame" x="0.0" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.27843138579999999" green="0.61960786580000005" blue="0.70980393890000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="0.090196078430000007" green="0.63529411759999999" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="2cE-q3-4pW"/>
                                                     </constraints>
@@ -673,8 +673,8 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="OWU-9r-vqJ">
-                                                    <rect key="frame" x="195" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.27843138579999999" green="0.61960786580000005" blue="0.70980393890000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="193" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="0.090196078430000007" green="0.63529411759999999" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="hpr-u3-7oO"/>
                                                     </constraints>
@@ -693,12 +693,12 @@
                                                 </button>
                                             </subviews>
                                         </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="q5s-pu-xRU">
-                                            <rect key="frame" x="0.0" y="88" width="382" height="48"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="q5s-pu-xRU">
+                                            <rect key="frame" x="0.0" y="80" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="wTC-0l-GdP">
-                                                    <rect key="frame" x="0.0" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.27843138579999999" green="0.61960786580000005" blue="0.70980393890000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="0.090196078430000007" green="0.63529411759999999" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="ANE-zy-06m"/>
                                                     </constraints>
@@ -716,8 +716,8 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="n4p-ef-gzq">
-                                                    <rect key="frame" x="195" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.27843138579999999" green="0.61960786580000005" blue="0.70980393890000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="193" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="0.090196078430000007" green="0.63529411759999999" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="eDT-yP-zjd"/>
                                                     </constraints>
@@ -736,12 +736,12 @@
                                                 </button>
                                             </subviews>
                                         </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="yW2-dP-C1G">
-                                            <rect key="frame" x="0.0" y="144" width="382" height="48"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="yW2-dP-C1G">
+                                            <rect key="frame" x="0.0" y="132" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="B6b-Dk-lwV">
-                                                    <rect key="frame" x="0.0" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.27843138579999999" green="0.61960786580000005" blue="0.70980393890000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="0.090196078430000007" green="0.63529411759999999" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="aG5-Ca-js6"/>
                                                     </constraints>
@@ -759,8 +759,8 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7Rn-Gs-tL1">
-                                                    <rect key="frame" x="195" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.27843138579999999" green="0.61960786580000005" blue="0.70980393890000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="193" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="0.090196078430000007" green="0.63529411759999999" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="3p0-3c-Rs9"/>
                                                     </constraints>
@@ -779,12 +779,12 @@
                                                 </button>
                                             </subviews>
                                         </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gu4-Xa-tmA">
-                                            <rect key="frame" x="0.0" y="200" width="382" height="48"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="gu4-Xa-tmA">
+                                            <rect key="frame" x="0.0" y="184" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ipt-LU-rPn">
-                                                    <rect key="frame" x="0.0" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.27843138579999999" green="0.61960786580000005" blue="0.70980393890000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="0.090196078430000007" green="0.63529411759999999" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="FnA-lJ-w6l"/>
                                                     </constraints>
@@ -802,8 +802,8 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Bs4-RQ-tfs">
-                                                    <rect key="frame" x="195" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.27843138579999999" green="0.61960786580000005" blue="0.70980393890000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="193" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="0.090196078430000007" green="0.63529411759999999" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="AxI-1M-QPR"/>
                                                     </constraints>
@@ -824,12 +824,12 @@
                                         </stackView>
                                     </subviews>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="zfA-h9-589">
-                                    <rect key="frame" x="16" y="1200" width="382" height="80"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="zfA-h9-589">
+                                    <rect key="frame" x="16" y="1100" width="382" height="76"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5c6-W2-a1h">
                                             <rect key="frame" x="0.0" y="0.0" width="382" height="24"/>
-                                            <color key="backgroundColor" red="0.42745098469999998" green="0.45490193369999998" blue="0.49019610879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.42352941179999998" green="0.45882352939999999" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="24" id="Ki9-yE-5z8"/>
                                             </constraints>
@@ -842,12 +842,12 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </label>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="eYh-gW-SOq">
-                                            <rect key="frame" x="0.0" y="32" width="382" height="48"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="eYh-gW-SOq">
+                                            <rect key="frame" x="0.0" y="28" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gsg-Dq-gSe">
-                                                    <rect key="frame" x="0.0" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.30196079609999998" green="0.63137257099999999" blue="0.31372550129999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="0.15686274510000001" green="0.65490196079999996" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="alc-Cj-tax"/>
                                                     </constraints>
@@ -865,8 +865,8 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="G6D-J3-pa4">
-                                                    <rect key="frame" x="195" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.30196079609999998" green="0.63137257099999999" blue="0.31372550129999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="193" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="0.15686274510000001" green="0.65490196079999996" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="GGm-2g-1to"/>
                                                     </constraints>
@@ -887,12 +887,12 @@
                                         </stackView>
                                     </subviews>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GXr-6J-x7Y">
-                                    <rect key="frame" x="16" y="1288" width="382" height="192"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="GXr-6J-x7Y">
+                                    <rect key="frame" x="16" y="1180" width="382" height="180"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OS Features" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RD4-B5-5qT">
                                             <rect key="frame" x="0.0" y="0.0" width="382" height="24"/>
-                                            <color key="backgroundColor" red="0.42745098469999998" green="0.45490193369999998" blue="0.49019610879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.42352941179999998" green="0.45882352939999999" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="24" id="MNJ-Vo-9ll"/>
                                             </constraints>
@@ -905,12 +905,12 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </label>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Uks-Uj-0Fg">
-                                            <rect key="frame" x="0.0" y="32" width="382" height="48"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Uks-Uj-0Fg">
+                                            <rect key="frame" x="0.0" y="28" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1fn-xG-FiN">
-                                                    <rect key="frame" x="0.0" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.96078431610000004" green="0.76470589639999997" blue="0.26274511220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="1" green="0.75686274509999996" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="38o-tc-kcI"/>
                                                     </constraints>
@@ -928,8 +928,8 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="uIh-iM-GE7">
-                                                    <rect key="frame" x="195" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.96078431610000004" green="0.76470589639999997" blue="0.26274511220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="193" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="1" green="0.75686274509999996" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="nUX-ru-XND"/>
                                                     </constraints>
@@ -948,12 +948,12 @@
                                                 </button>
                                             </subviews>
                                         </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="l2c-az-QcK">
-                                            <rect key="frame" x="0.0" y="88" width="382" height="48"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="l2c-az-QcK">
+                                            <rect key="frame" x="0.0" y="80" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="vUO-Fz-ZPF">
-                                                    <rect key="frame" x="0.0" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.96078431610000004" green="0.76470589639999997" blue="0.26274511220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="1" green="0.75686274509999996" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="crT-fv-zN9"/>
                                                     </constraints>
@@ -971,8 +971,8 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="a2K-Kx-qll">
-                                                    <rect key="frame" x="195" y="0.0" width="187" height="48"/>
-                                                    <color key="backgroundColor" red="0.96078431610000004" green="0.76470589639999997" blue="0.26274511220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <rect key="frame" x="193" y="0.0" width="189" height="48"/>
+                                                    <color key="backgroundColor" red="1" green="0.75686274509999996" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="QVW-sF-muQ"/>
                                                     </constraints>
@@ -991,12 +991,12 @@
                                                 </button>
                                             </subviews>
                                         </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OFU-hU-gJb">
-                                            <rect key="frame" x="0.0" y="144" width="382" height="48"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="OFU-hU-gJb">
+                                            <rect key="frame" x="0.0" y="132" width="382" height="48"/>
                                             <subviews>
                                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Fb9-P4-N3H">
                                                     <rect key="frame" x="0.0" y="0.0" width="382" height="48"/>
-                                                    <color key="backgroundColor" red="0.96078431610000004" green="0.76470589639999997" blue="0.26274511220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="backgroundColor" red="1" green="0.75686274509999996" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="rdi-UX-qnI"/>
                                                     </constraints>
